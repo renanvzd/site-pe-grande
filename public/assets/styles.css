@@ -1,4 +1,207 @@
 body {
     background-color: #CAE1FF; 
+      { padding-top: 70px; }
   }
   
+  /************************ MENU ************************/
+  .titulo {
+      color:black;
+  }
+  
+  .navbar-toggler {
+      background-color: #B2DFEE;
+      border-color: black;
+      border-width: thin;
+  }
+  
+  .menu-top {
+      background-color: black; 
+      font-family: 'Lobster Two', cursive;
+      font-weight: 900;
+  }
+  
+  .navbar-top {
+      background-color: rgb(183, 213, 234); 
+  }
+  
+  
+  .altera-fonte-brand {
+      font-size: 50px;
+      font-family: 'Lobster Two', cursive;
+      color: black;
+      margin-top: 10px;
+      text-align: left;
+      font-weight: 900;
+  }
+  
+  .nav-menu {
+      padding-right: 10px;
+  }
+  
+  .navbar-toggler {
+      padding-bottom: 30px;
+  }
+  
+  
+  .nav-bloco-menu {
+      font-family: 'Lobster Two', cursive;
+      font-weight: 900;
+      color: black;
+      font-size: 25px;
+      padding: 2px;
+      width: 135px;
+  }
+  
+  .nav-bloco-menu:hover {
+    background-color: #0000EE;
+      color: white;
+      border-color: black;
+      border-style: solid;
+      font-size: 25px;
+  }
+  
+  .nav-bloco-moradas {
+      background-color: #87CEFA;
+      color: black;
+  }
+  
+  /************************ CAROUSEL ************************/
+.carousel1 {
+    position: absolute;
+    background-color: black;
+}
+
+/************************ CARDS ************************/
+.texto-abaixo {
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+}
+
+.text-car1 {
+    color: white;
+    font-size: 55px;
+    font-family: Calibri;
+    font-weight: 600;
+}
+
+.text-car2 {
+    color: white;
+    font-size: 55px;
+    font-family: Calibri;
+    font-weight: 600;
+    position: relative;
+}
+
+.text-car {
+    font-size: 55px;
+    position: relative;
+    bottom: 100px;
+    font-family: Calibri;
+    font-weight: 600;
+}
+
+.borda-card {
+  background-color: #F0FFFF;
+  border-color: black;
+  border-width: 4px;
+  border-radius: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0); 
+}
+
+.borda-card-capa {
+  border-radius: 20px 20px 0px 0px; 
+}
+
+.pe-grande-card {
+  width: 20%; 
+}
+
+/*# sourceMappingURL=style.css.map */
+
+
+/************************ Youtube ************************/
+
+.quadro-youtube {
+    background-color: #CAE1FF;
+}
+
+.ferias-youtube {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+/************************ Footer ************************/
+
+.footer-menu {
+    background-color: #3A5FCD;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.footer-menu:hover {
+    background-color: #0000EE;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.footer-menu-facebook {
+    background-color: #0000EE;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.footer-menu-facebook:hover {
+    background-color: #4876FF;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.footer-menu-youtube {
+    background-color: #EE0000;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.footer-menu-youtube:hover {
+    background-color: red;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.footer-menu-instagram {
+    background-color: #FF1493;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.footer-menu-instagram:hover {
+    background-color: #FF69B4;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: rgb(183, 213, 234);
+    margin-top: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
