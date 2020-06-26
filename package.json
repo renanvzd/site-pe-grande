@@ -1,0 +1,24 @@
+{
+  "name": "pe-grande",
+  "version": "1.0.0",
+  "description": "pousada-site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanvzd/site-pe-grande.git"
+  },
+  "author": "renan veronez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renanvzd/site-pe-grande/issues"
+  },
+  "homepage": "https://github.com/renanvzd/site-pe-grande#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
