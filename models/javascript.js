@@ -45,7 +45,7 @@ var vload;
   
       function anima(){
           tempoTroca++;
-          if(tempoTroca >= 500){
+          if(tempoTroca >= 200){
               tempoTroca=0;
               troca(1);
           }

@@ -1,6 +1,5 @@
 body {
     background-color: #CAE1FF; 
-      { padding-top: 70px; }
   }
   
   /************************ MENU ************************/
@@ -25,12 +24,12 @@ body {
   }
   
   
-  .altera-fonte-brand {
-      font-size: 50px;
+  .text-brand {
+      text-size-adjust: 100%;
       font-family: 'Lobster Two', cursive;
       color: black;
+      text-align: center;
       margin-top: 10px;
-      text-align: left;
       font-weight: 900;
   }
   
@@ -226,7 +225,7 @@ body {
   border: none;
 }
 
-#dvload{
+/*#dvload{
   width:100%;
   height: 5px;
   margin-top:25%;
@@ -237,6 +236,6 @@ body {
   width:0%;
   height:100%;
   background-color: #fff;
-}
+}*/
 
   /*fin carousel */
