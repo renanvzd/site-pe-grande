@@ -28,7 +28,7 @@ ol, ul, dl {
 }
 
 .headerquem{
-    text-align: center;
+    text-align: justify;
     width: 100%;
     background-color: #B2DFEE;
     transition: all ease 0.5s;
@@ -93,7 +93,7 @@ ol, ul, dl {
 }
 
 .sticky .menu-princ{
-    font-size: 25px;
+    font-size: 20px;
 }
 .sticky{
     position: fixed;
@@ -110,8 +110,7 @@ ol, ul, dl {
     display: block;
     font-family: 'Lobster Two', cursive;
     color: black;
-    padding-left: 18px;
-    padding-right: 18px;
+    
     padding-top: 5px;
     font-weight: 900;
     text-decoration: none;
@@ -139,6 +138,10 @@ ol, ul, dl {
 
 @media (max-width: 768px) { 
 
+    .coluna {
+        margin-left:-71px;
+    }
+
     .row{
         margin-right: auto;
     }
@@ -152,7 +155,7 @@ ol, ul, dl {
         margin-top: 0;
         margin-bottom: 0px;
         padding-bottom: 0px;
-        text-align: -webkit-center;
+        text-align: center;
     }
     
     .header-brand{
