@@ -137,7 +137,7 @@ ol, ul, dl {
     transition: all ease 0.5s;
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 768px) { 
 
     .row{
         margin-right: auto;
@@ -306,7 +306,7 @@ ol, ul, dl {
     font-size: 50px;
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 768px) { 
     .texto-section2{
         font-family: 'Lobster Two', cursive;
         font-size: 30px;
