@@ -1,3 +1,108 @@
-<%- include('includes/header') %>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<%- include('includes/footer') %>
+    <!-- Bootstrap CSS -->
+    <script type="text/javascript" src="/models/javascript.js"></script>
+    
+    
+
+    <title>Moradas do Pé Grande</title>
+  
+      <style>
+      
+              
+    .headerquem{
+        width: 100%;
+        background-color: #9b59b6;
+        text-align: center;
+        transition: all ease 0.5s;
+    }
+
+    .headerquem ul li{
+        display: inline-block;
+    }
+
+    .headerquem ul li a{
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        padding: 25px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: all ease 0.5s;
+    }
+
+    .headerquem ul li a:hover{
+        background-color: #00000080;
+    }
+
+    .section{
+        padding: 400px 0;
+        width: 100%;
+    }
+
+    .color1{
+        background-color: #34495e;
+    }
+    .color2{
+        background-color: #55efc4;
+    }
+    .color3{
+        background-color: #a29bfe;
+    }
+
+    .sticky{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        background-color: #3498db;
+    }
+
+    .headerquem.sticky ul li a{
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+    
+    </style>
+      
+      
+</head>
+<body>
+
+    <div class="headerquem">
+
+        <ul>
+            <li><a href="home-guest.ejs">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </div>
+
+    <div class="section color1"></div>
+    <div class="section color2"></div>
+    <div class="section color3"></div>
+
+
+<!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script>$('[data-toggle="tooltip"]').tooltip()</script>
+    <script type="text/javascript" src="/models/javascript.js"></script>
+   
+    
+  </body>
+</html>
+
+

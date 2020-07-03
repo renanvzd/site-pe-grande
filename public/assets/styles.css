@@ -1,3 +1,193 @@
+.row{
+    margin-right: auto;
+}
+
+.header-row{
+    height: 60px;
+    text-align: center;
+}
+
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: -webkit-center;
+}
+
+.header-brand{
+    background-color: #80cce6;
+    padding-left: 30px;
+    position: fixed;
+    height: 60px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-family: 'Lobster Two', cursive;
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+
+.headerquem{
+    text-align: center;
+    width: 100%;
+    background-color: #B2DFEE;
+    transition: all ease 0.5s;
+}
+
+.header-menu{
+    width: 100%;
+    text-align: right;
+}
+
+.headerquem ul li{
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+}
+
+.menu-princ{
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+}
+.menu-princ:hover{
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+}
+
+.headerquem ul li a{
+    height: 50px;
+    display: block;
+    font-family: 'Lobster Two', cursive;
+    color: black;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all ease 0.5s;
+}
+
+.headerquem ul li a:hover{
+    background-color: #5e8ec5e7;
+    height: auto;
+    text-align: center;
+    height: 50px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all ease 0.5s;
+}
+
+.section{
+    padding: 25px 0;
+    width: 100%;
+}
+
+.color1{
+    background-color: #CAE1FF;
+    padding: 0 0;
+}
+.color2{
+    background-color: #CAE1FF;
+    padding: 0px 0;
+}
+.color3{
+    background-color: #a29bfe;
+}
+
+.sticky-header{
+    position: fixed;
+    top:0;
+    text-align: center3;
+    left: 0;
+    width: 100%;
+    background-color: #090a46;
+    color: white;
+}
+
+
+.sticky{
+    position: fixed;
+    
+    text-align: center;
+    left: 0;
+    width: 100%;
+    background-color: #3498db;
+}
+
+.headerquem.sticky ul li a{
+    padding: 10px 25px;
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    display: block;
+    font-family: 'Lobster Two', cursive;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all ease 0.5s;
+}
+
+.headerquem.sticky ul li a:hover{
+    background-color: #d7e1ece7;
+    height: auto;
+    text-align: center;
+    height: 50px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all ease 0.5s;
+}
+
+.texto-section2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+}
+
+.col-md-4, .col-12{
+    position: static;
+}
+
+.col-sm-6{
+    position: static;
+}
+
+.col-md-8{
+    max-width: 100%;
+}
+
+.card{
+    position: static;
+}
+
+/********************************************************/
+
 body {
     background-color: #CAE1FF; 
   }
@@ -7,24 +197,7 @@ body {
       color:black;
   }
   
-  .navbar-toggler {
-      background-color: #B2DFEE;
-      border-color: black;
-      border-width: thin;
-  }
-  
-  .menu-top {
-      background-color: black; 
-      font-family: 'Lobster Two', cursive;
-      font-weight: 900;
-  }
-  
-  .navbar-top {
-      background-color: rgb(183, 213, 234); 
-  }
-  
-  
-  .text-brand {
+ .text-brand {
       text-size-adjust: 100%;
       font-family: 'Lobster Two', cursive;
       color: black;
@@ -32,50 +205,14 @@ body {
       margin-top: 10px;
       font-weight: 900;
   }
-  
-  .nav-menu {
-      padding-right: 10px;
-  }
-  
-  .navbar-toggler {
-      padding-bottom: 30px;
-  }
-  
-  
-  .nav-bloco-menu {
-      font-family: 'Lobster Two', cursive;
-      font-weight: 900;
-      color: black;
-      font-size: 25px;
-      padding: 2px;
-      width: 135px;
-  }
-  
-  .nav-bloco-menu:hover {
-    background-color: #0000EE;
-      color: white;
-      border-color: black;
-      border-style: solid;
-      font-size: 25px;
-  }
-  
-  .nav-bloco-moradas {
-      background-color: #87CEFA;
-      color: black;
-  }
-  
+ 
   /************************ CAROUSEL ************************/
 .carousel1 {
-    position: absolute;
+    position: relative;
     background-color: black;
 }
 
 /************************ CARDS ************************/
-.texto-abaixo {
-    font-family: 'Lobster Two', cursive;
-    font-size: 50px;
-}
-
 .text-car1 {
     color: white;
     font-size: 55px;
@@ -88,12 +225,10 @@ body {
     font-size: 55px;
     font-family: Calibri;
     font-weight: 600;
-    position: relative;
 }
 
 .text-car {
     font-size: 55px;
-    position: relative;
     bottom: 100px;
     font-family: Calibri;
     font-weight: 600;
@@ -131,6 +266,17 @@ body {
 }
 
 /************************ Footer ************************/
+.tab-content {
+    position: static;
+}
+
+.pane-youtube {
+    position: static;
+}
+
+.tab-pane {
+    position: static;
+}
 
 .footer-menu {
     background-color: #3A5FCD;

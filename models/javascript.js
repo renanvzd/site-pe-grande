@@ -1,3 +1,5 @@
+
+
 /***************************************************** Carousel ******************************************************/
 var imgs=[];
 var slider;
@@ -57,3 +59,22 @@ var vload;
       window.addEventListener("load",inicia);
       
   /***************************************************** Carousel ******************************************************/
+  $(function(){
+            
+    $(window).scroll(function(){
+
+        if($(window).scrollTop() > 0) {
+            $(".header-brand").addClass("sticky-header");
+        } else {
+            $(".header-brand").removeClass("sticky-header");
+        }
+
+
+        if($(window).scrollTop() > 0) {
+            $(".headerquem").addClass("sticky");
+        } else {
+            $(".headerquem").removeClass("sticky");
+        }
+
+    });
+});
