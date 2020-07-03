@@ -16,7 +16,6 @@ ol, ul, dl {
 
 .header-brand{
     background-color: #80cce6;
-    padding-left: 30px;
     position: fixed;
     height: 60px;
     display: block;
@@ -28,18 +27,11 @@ ol, ul, dl {
     font-weight: 900;
 }
 
-
-
 .headerquem{
     text-align: center;
     width: 100%;
     background-color: #B2DFEE;
     transition: all ease 0.5s;
-}
-
-.header-menu{
-    width: 100%;
-    text-align: right;
 }
 
 .headerquem ul li{
@@ -48,22 +40,13 @@ ol, ul, dl {
     height: 50px;
 }
 
-.menu-princ{
-    text-align: center;
-    font-family: 'Lobster Two', cursive;
-}
-.menu-princ:hover{
-    text-align: center;
-    font-family: 'Lobster Two', cursive;
-}
-
 .headerquem ul li a{
     height: 50px;
     display: block;
     font-family: 'Lobster Two', cursive;
     color: black;
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left: 18px;
+    padding-right: 18px;
     padding-top: 5px;
     font-size: 25px;
     font-weight: 900;
@@ -79,8 +62,8 @@ ol, ul, dl {
     height: auto;
     text-align: center;
     height: 50px;
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left: 18px;
+    padding-right: 18px;
     padding-top: 5px;
     font-size: 25px;
     font-weight: 900;
@@ -90,6 +73,216 @@ ol, ul, dl {
     letter-spacing: 1px;
     transition: all ease 0.5s;
 }
+
+.menu-princ{
+    font-size: 100%;
+}
+
+.header-brand.sticky-header{
+    position: fixed;
+    height: 60px;
+    top:0;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    background-color: #090a46;
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.sticky .menu-princ{
+    font-size: 25px;
+}
+.sticky{
+    position: fixed;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    background-color: #3498db;
+    top: 60px;
+}
+
+.headerquem.sticky ul li a{
+    width: 100%;
+    height: 40px;
+    display: block;
+    font-family: 'Lobster Two', cursive;
+    color: black;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 5px;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all ease 0.5s;
+}
+
+.headerquem.sticky ul li a:hover{
+    background-color: #d7e1ece7;
+    height: auto;
+    text-align: center;
+    height: 50px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 5px;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all ease 0.5s;
+}
+
+@media (max-width: 576px) { 
+
+    .row{
+        margin-right: auto;
+    }
+    
+    .header-row{
+        height: 30px;
+        text-align: center;
+    }
+    
+    ol, ul, dl {
+        margin-top: 0;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        text-align: -webkit-center;
+    }
+    
+    .header-brand{
+        background-color: #80cce6;
+        position: fixed;
+        display: block;
+        text-align: center;
+        width: 100%;
+        font-family: 'Lobster Two', cursive;
+        color: black;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    
+    .headerquem{
+        text-align: center;
+        width: 100%;
+        background-color: #B2DFEE;
+        transition: all ease 0.5s;
+        height: 30px;
+        margin-top: 10px;
+    }
+    
+    .headerquem ul li{
+        display: inline-block;
+        text-align: center;
+        height: 50px;
+    }
+    
+    .headerquem ul li a{
+        height: 40px;
+        display: block;
+        font-family: 'Lobster Two', cursive;
+        color: black;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        font-size: 25px;
+        font-weight: 900;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition: all ease 0.5s;
+    }
+    
+    .headerquem ul li a:hover{
+        background-color: #5e8ec5e7;
+        height: auto;
+        text-align: center;
+        height: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        font-size: 25px;
+        font-weight: 900;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition: all ease 0.5s;
+    }
+    
+    .menu-princ{
+        font-size: 15px;
+    }
+    
+    .header-brand.sticky-header{
+        position: fixed;
+        height: 40px;
+        top:0;
+        text-align: center;
+        left: 0;
+        width: 100%;
+        background-color: #090a46;
+        font-family: 'Lobster Two', cursive;
+        color: white;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    
+    .sticky .menu-princ{
+        font-size: 15px;
+    }
+    .sticky{
+        position: fixed;
+        text-align: center;
+        left: 0;
+        width: 100%;
+        background-color: #3498db;
+        top: 30px;
+    }
+    
+    .headerquem.sticky ul li a{
+        
+        width: 100%;
+        height: 30px;
+        display: block;
+        font-family: 'Lobster Two', cursive;
+        color: black;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        font-weight: 900;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition: all ease 0.5s;
+    }
+    
+    .headerquem.sticky ul li a:hover{
+        background-color: #d7e1ece7;
+        height: auto;
+        text-align: center;
+        height: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        font-weight: 900;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition: all ease 0.5s;
+    }
+  }
+
+/************************************HEADER******************************************/
+
 
 .section{
     padding: 25px 0;
@@ -108,67 +301,18 @@ ol, ul, dl {
     background-color: #a29bfe;
 }
 
-.sticky-header{
-    position: fixed;
-    top:0;
-    text-align: center3;
-    left: 0;
-    width: 100%;
-    background-color: #090a46;
-    color: white;
-}
-
-
-.sticky{
-    position: fixed;
-    
-    text-align: center;
-    left: 0;
-    width: 100%;
-    background-color: #3498db;
-}
-
-.headerquem.sticky ul li a{
-    padding: 10px 25px;
-    font-size: 14px;
-    width: 100%;
-    height: 40px;
-    display: block;
-    font-family: 'Lobster Two', cursive;
-    color: black;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    font-size: 25px;
-    font-weight: 900;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 1px;
-    transition: all ease 0.5s;
-}
-
-.headerquem.sticky ul li a:hover{
-    background-color: #d7e1ece7;
-    height: auto;
-    text-align: center;
-    height: 50px;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-top: 5px;
-    font-size: 25px;
-    font-weight: 900;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 1px;
-    transition: all ease 0.5s;
-}
-
 .texto-section2{
     font-family: 'Lobster Two', cursive;
     font-size: 50px;
 }
+
+@media (max-width: 576px) { 
+    .texto-section2{
+        font-family: 'Lobster Two', cursive;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}    
 
 .col-md-4, .col-12{
     position: static;
@@ -186,6 +330,17 @@ ol, ul, dl {
     position: static;
 }
 
+.card-title{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 900;
+    text-align: center;
+    font-size: 35px;
+}
+
+.card-subtitle{
+    color: black;
+}
+
 /********************************************************/
 
 body {
@@ -200,10 +355,11 @@ body {
  .text-brand {
       text-size-adjust: 100%;
       font-family: 'Lobster Two', cursive;
+      font-weight: 900;
       color: black;
       text-align: center;
       margin-top: 10px;
-      font-weight: 900;
+      
   }
  
   /************************ CAROUSEL ************************/
@@ -263,6 +419,11 @@ body {
     font-family: 'Shadows Into Light', cursive;
     font-weight: 900;
     font-size: 30px;
+}
+
+.text-center {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 900;
 }
 
 /************************ Footer ************************/
@@ -385,3 +546,5 @@ background-repeat: round;
 }*/
 
   /*fin carousel */
+
+ 
