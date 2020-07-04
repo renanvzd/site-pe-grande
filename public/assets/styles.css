@@ -7,15 +7,9 @@
     text-align: center;
 }
 
-ol, ul, dl {
-    margin-top: 0;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    text-align: -webkit-center;
-}
-
 .header-brand{
-    background-color: #80cce6;
+    padding-top: 5px;
+    background-color: #5ab9d8;
     position: fixed;
     height: 60px;
     display: block;
@@ -25,57 +19,6 @@ ol, ul, dl {
     color: black;
     font-size: 40px;
     font-weight: 900;
-}
-
-.headerquem{
-    text-align: justify;
-    width: 100%;
-    background-color: #B2DFEE;
-    transition: all ease 0.5s;
-}
-
-.headerquem ul li{
-    display: inline-block;
-    text-align: center;
-    height: 50px;
-}
-
-.headerquem ul li a{
-    height: 50px;
-    display: block;
-    font-family: 'Lobster Two', cursive;
-    color: black;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 5px;
-    font-size: 25px;
-    font-weight: 900;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 1px;
-    transition: all ease 0.5s;
-}
-
-.headerquem ul li a:hover{
-    background-color: #5e8ec5e7;
-    height: auto;
-    text-align: center;
-    height: 50px;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 5px;
-    font-size: 25px;
-    font-weight: 900;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 1px;
-    transition: all ease 0.5s;
-}
-
-.menu-princ{
-    font-size: 100%;
 }
 
 .header-brand.sticky-header{
@@ -92,69 +35,99 @@ ol, ul, dl {
     font-weight: 900;
 }
 
-.sticky .menu-princ{
-    font-size: 20px;
-}
 .sticky{
     position: fixed;
     text-align: center;
     left: 0;
     width: 100%;
     background-color: #3498db;
-    top: 60px;
+    top: 50px;
 }
 
-.headerquem.sticky ul li a{
-    width: 100%;
-    height: 40px;
-    display: block;
-    font-family: 'Lobster Two', cursive;
-    color: black;
-    
-    padding-top: 5px;
-    font-weight: 900;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 1px;
-    transition: all ease 0.5s;
-}
+      /* Style the navigation menu */
+      .menu-tab {     /* Barra Oculta */
+        overflow: hidden;
+        background-color: #8ad1e9;
+        position: fixed;
+        width: 100%;
+      }
+      
+      .menu-tab.sticky {     /* Barra Oculta */
+        overflow: hidden;
+        background-color: #8ad1e9;
+        position: fixed;
+        width: 100%;
+      }
+      
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .menu-tab #myLinks {
+        display: none;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+      }
+      
+      /* Style navigation menu links */
+      .menu-tab a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        height: 45px;
+      }
+      
+      .menu-tab.sticky a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        height: 45px;
+      }
 
-.headerquem.sticky ul li a:hover{
-    background-color: #d7e1ece7;
-    height: auto;
-    text-align: center;
-    height: 50px;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 5px;
-    font-weight: 900;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 1px;
-    transition: all ease 0.5s;
-}
+      /* Style the hamburger menu */
+      .menu-tab a.icon {
+        background: #80cce6;
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        text-align: center;
+      }
+      
+      /*menu tab rolagem */
+      .menu-tab.sticky a.icon {
+          background: #090a46;;
+          display: block;
+          position: absolute;
+          width: 100%;
+          top: 0;
+          text-align: center;
+      }
+      
+      
+      /* Add a grey background color on mouse-over */
+      .menu-tab a:hover {
+        background-color: white;
+        color: black;
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        background-color: #d2dde0;
+        font-family: 'Lobster Two', cursive;
+        color: black;
+      } 
 
 @media (max-width: 768px) { 
-
-    .coluna {
-        margin-left:-71px;
-    }
 
     .row{
         margin-right: auto;
     }
     
     .header-row{
-        height: 30px;
-        text-align: center;
-    }
-    
-    ol, ul, dl {
-        margin-top: 0;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
+        height: 60px;
         text-align: center;
     }
     
@@ -170,62 +143,9 @@ ol, ul, dl {
         font-weight: 900;
     }
     
-    .headerquem{
-        text-align: center;
-        width: 100%;
-        background-color: #B2DFEE;
-        transition: all ease 0.5s;
-        height: 30px;
-        margin-top: 10px;
-    }
-    
-    .headerquem ul li{
-        display: inline-block;
-        text-align: center;
-        height: 50px;
-    }
-    
-    .headerquem ul li a{
-        height: 40px;
-        display: block;
-        font-family: 'Lobster Two', cursive;
-        color: black;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 5px;
-        font-size: 25px;
-        font-weight: 900;
-        text-decoration: none;
-        text-align: center;
-        font-weight: bold;
-        letter-spacing: 1px;
-        transition: all ease 0.5s;
-    }
-    
-    .headerquem ul li a:hover{
-        background-color: #5e8ec5e7;
-        height: auto;
-        text-align: center;
-        height: 30px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 5px;
-        font-size: 25px;
-        font-weight: 900;
-        text-decoration: none;
-        text-align: center;
-        font-weight: bold;
-        letter-spacing: 1px;
-        transition: all ease 0.5s;
-    }
-    
-    .menu-princ{
-        font-size: 15px;
-    }
-    
     .header-brand.sticky-header{
         position: fixed;
-        height: 40px;
+        height: 50px;
         top:0;
         text-align: center;
         left: 0;
@@ -237,53 +157,94 @@ ol, ul, dl {
         font-weight: 900;
     }
     
-    .sticky .menu-princ{
-        font-size: 15px;
-    }
     .sticky{
         position: fixed;
         text-align: center;
         left: 0;
         width: 100%;
-        background-color: #3498db;
-        top: 30px;
+        background-color: red;
+        top: 50px;
     }
     
-    .headerquem.sticky ul li a{
-        
-        width: 100%;
-        height: 30px;
-        display: block;
-        font-family: 'Lobster Two', cursive;
-        color: black;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 5px;
-        font-weight: 900;
-        text-decoration: none;
-        text-align: center;
-        font-weight: bold;
-        letter-spacing: 1px;
-        transition: all ease 0.5s;
-    }
-    
-    .headerquem.sticky ul li a:hover{
-        background-color: #d7e1ece7;
-        height: auto;
-        text-align: center;
-        height: 30px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 5px;
-        font-weight: 900;
-        text-decoration: none;
-        text-align: center;
-        font-weight: bold;
-        letter-spacing: 1px;
-        transition: all ease 0.5s;
-    }
+ /* Style the navigation menu */
+ .menu-tab {     /* Barra Oculta */
+    overflow: hidden;
+    background-color: #8ad1e9;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .menu-tab.sticky {     /* Barra Oculta */
+    overflow: hidden;
+    background-color: #8ad1e9;
+    position: fixed;
+    width: 100%;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .menu-tab #myLinks {
+    display: none;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Style navigation menu links */
+  .menu-tab a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    height: 45px;
+  }
+  
+  .menu-tab.sticky a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    height: 45px;
   }
 
+  /* Style the hamburger menu */
+  .menu-tab a.icon {
+    background: #80cce6;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    text-align: center;
+  }
+  
+  /*menu tab rolagem */
+  .menu-tab.sticky a.icon {
+      background: #090a46;;
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      text-align: center;
+  }
+  
+  
+  /* Add a grey background color on mouse-over */
+  .menu-tab a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #d2dde0;
+    font-family: 'Lobster Two', cursive;
+    color: black;
+  } 
+
+
+  }
+  
 /************************************HEADER******************************************/
 
 
