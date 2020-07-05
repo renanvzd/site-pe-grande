@@ -1,256 +1,12 @@
-.row{
-    margin-right: auto;
-}
-
-.header-row{
-    height: 60px;
-    text-align: center;
-}
-
-.header-brand{
-    padding-top: 5px;
-    background-color: #5ab9d8;
-    position: fixed;
-    height: 60px;
-    display: block;
-    text-align: center;
-    width: 100%;
-    font-family: 'Lobster Two', cursive;
-    color: black;
-    font-size: 40px;
-    font-weight: 900;
-}
-
-.header-brand.sticky-header{
-    position: fixed;
-    height: 60px;
-    top:0;
-    text-align: center;
-    left: 0;
-    width: 100%;
-    background-color: #090a46;
-    font-family: 'Lobster Two', cursive;
-    color: white;
-    font-size: 40px;
-    font-weight: 900;
-}
-
-.sticky{
-    position: fixed;
-    text-align: center;
-    left: 0;
-    width: 100%;
-    background-color: #3498db;
-    top: 50px;
-}
-
-      /* Style the navigation menu */
-      .menu-tab {     /* Barra Oculta */
-        overflow: hidden;
-        background-color: #8ad1e9;
-        position: fixed;
-        width: 100%;
-      }
-      
-      .menu-tab.sticky {     /* Barra Oculta */
-        overflow: hidden;
-        background-color: #8ad1e9;
-        position: fixed;
-        width: 100%;
-      }
-      
-      /* Hide the links inside the navigation menu (except for logo/home) */
-      .menu-tab #myLinks {
-        display: none;
-        width: 100%;
-        text-align: center;
-        font-weight: bold;
-      }
-      
-      /* Style navigation menu links */
-      .menu-tab a {
-        color: black;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-        height: 45px;
-      }
-      
-      .menu-tab.sticky a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-        height: 45px;
-      }
-
-      /* Style the hamburger menu */
-      .menu-tab a.icon {
-        background: #80cce6;
-        display: block;
-        position: absolute;
-        width: 100%;
-        top: 0;
-        text-align: center;
-      }
-      
-      /*menu tab rolagem */
-      .menu-tab.sticky a.icon {
-          background: #090a46;;
-          display: block;
-          position: absolute;
-          width: 100%;
-          top: 0;
-          text-align: center;
-      }
-      
-      
-      /* Add a grey background color on mouse-over */
-      .menu-tab a:hover {
-        background-color: white;
-        color: black;
-      }
-      
-      /* Style the active link (or home/logo) */
-      .active {
-        background-color: #d2dde0;
-        font-family: 'Lobster Two', cursive;
-        color: black;
-      } 
-
-@media (max-width: 768px) { 
-
-    .row{
-        margin-right: auto;
-    }
-    
-    .header-row{
-        height: 60px;
-        text-align: center;
-    }
-    
-    .header-brand{
-        background-color: #80cce6;
-        position: fixed;
-        display: block;
-        text-align: center;
-        width: 100%;
-        font-family: 'Lobster Two', cursive;
-        color: black;
-        font-size: 25px;
-        font-weight: 900;
-    }
-    
-    .header-brand.sticky-header{
-        position: fixed;
-        height: 50px;
-        top:0;
-        text-align: center;
-        left: 0;
-        width: 100%;
-        background-color: #090a46;
-        font-family: 'Lobster Two', cursive;
-        color: white;
-        font-size: 25px;
-        font-weight: 900;
-    }
-    
-    .sticky{
-        position: fixed;
-        text-align: center;
-        left: 0;
-        width: 100%;
-        background-color: red;
-        top: 50px;
-    }
-    
- /* Style the navigation menu */
- .menu-tab {     /* Barra Oculta */
-    overflow: hidden;
-    background-color: #8ad1e9;
-    position: fixed;
-    width: 100%;
-  }
-  
-  .menu-tab.sticky {     /* Barra Oculta */
-    overflow: hidden;
-    background-color: #8ad1e9;
-    position: fixed;
-    width: 100%;
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .menu-tab #myLinks {
-    display: none;
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  /* Style navigation menu links */
-  .menu-tab a {
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-    height: 45px;
-  }
-  
-  .menu-tab.sticky a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-    height: 45px;
-  }
-
-  /* Style the hamburger menu */
-  .menu-tab a.icon {
-    background: #80cce6;
-    display: block;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    text-align: center;
-  }
-  
-  /*menu tab rolagem */
-  .menu-tab.sticky a.icon {
-      background: #090a46;;
-      display: block;
-      position: absolute;
-      width: 100%;
-      top: 0;
-      text-align: center;
-  }
-  
-  
-  /* Add a grey background color on mouse-over */
-  .menu-tab a:hover {
-    background-color: white;
-    color: black;
-  }
-  
-  /* Style the active link (or home/logo) */
-  .active {
-    background-color: #d2dde0;
-    font-family: 'Lobster Two', cursive;
-    color: black;
-  } 
-
-
-  }
-  
-/************************************HEADER******************************************/
-
-
-.section{
+.section-home{
     padding: 25px 0;
     width: 100%;
+}
+
+.section-moradas{
+    padding: 300px 0;
+    height: 30%;
+        
 }
 
 .color1{
@@ -305,32 +61,35 @@
     color: black;
 }
 
-/********************************************************/
+.card-link{
+  background-color: #F0FFFF;
+}
 
-body {
-    background-color: #CAE1FF; 
-  }
-  
-  /************************ MENU ************************/
-  .titulo {
-      color:black;
-  }
-  
- .text-brand {
-      text-size-adjust: 100%;
-      font-family: 'Lobster Two', cursive;
-      font-weight: 900;
-      color: black;
-      text-align: center;
-      margin-top: 10px;
-      
-  }
- 
-  /************************ CAROUSEL ************************/
+/************************ CAROUSEL ************************/
 .carousel1 {
     position: relative;
     background-color: black;
 }
+
+#dvslider{
+  background-repeat: round;
+    height:300px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.btSlider{
+  background-color: rgba(0,0,0,0.4);
+  height:30%;
+  color:#fff;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+  border: none;
+}
+
 
 /************************ CARDS ************************/
 .text-car1 {
@@ -376,7 +135,7 @@ body {
 /************************ Youtube ************************/
 
 .quadro-youtube {
-    background-color: #CAE1FF;
+    background-color: #5ab9d8;
 }
 
 .ferias-youtube {
@@ -390,125 +149,351 @@ body {
     font-weight: 900;
 }
 
-/************************ Footer ************************/
+ /************************* HEADER *********************/
+ body {
+  background-color: #CAE1FF; 
+}
+
+
+.row{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-row{
+  height: 60px;
+  text-align: center;
+}
+
+.header-brand{
+  padding-top: 5px;
+  background-color: #5ab9d8;
+  position: fixed;
+  height: 60px;
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-family: 'Lobster Two', cursive;
+  color: black;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.header-brand.sticky-header{
+  position: fixed;
+  height: 60px;
+  top:0;
+  text-align: center;
+  left: 0;
+  width: 100%;
+  background-color: #090a46;
+  font-family: 'Lobster Two', cursive;
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.sticky{
+  position: fixed;
+  text-align: center;
+  left: 0;
+  width: 100%;
+  background-color: #3498db;
+  top: 60px;
+}
+
+    /* Style the navigation menu */
+    .menu-tab {     /* Barra Oculta */
+      overflow: hidden;
+      background-color: #8ad1e9;
+      position: fixed;
+      width: 100%;
+    }
+    
+    .menu-tab.sticky {     /* Barra Oculta */
+      overflow: hidden;
+      background-color: #8ad1e9;
+      position: fixed;
+      width: 100%;
+    }
+    
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .menu-tab #myLinks {
+      display: none;
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+    }
+    
+    /* Style navigation menu links */
+    .menu-tab a {
+      color: black;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+      height: 45px;
+    }
+    
+    .menu-tab.sticky a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+      height: 45px;
+    }
+
+    /* Style the hamburger menu */
+    .menu-tab a.icon {
+      background: #80cce6;
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      text-align: center;
+    }
+    
+    /*menu tab rolagem */
+    .menu-tab.sticky a.icon {
+        background: #090a46;
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        text-align: center;
+    }
+    
+    
+    /* Add a grey background color on mouse-over */
+    .menu-tab a:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .menu-tab.sticky a:hover {
+      background-color: rgb(104, 185, 218);
+      color: white;
+    }
+    
+    /* Style the active link (or home/logo) */
+    .active {
+      font-family: 'Lobster Two', cursive;
+      color: black;
+    } 
+
+/************************* FOOTER *********************/
+
 .tab-content {
-    position: static;
+position: static;
 }
 
 .pane-youtube {
-    position: static;
+position: static;
 }
 
 .tab-pane {
-    position: static;
+position: static;
 }
 
 .footer-menu {
-    background-color: #3A5FCD;
-    color: white;
-    border-color: black;
-    border-style: solid;
-    font-size: 20px;
+background-color: #3A5FCD;
+color: white;
+border-color: black;
+border-style: solid;
+font-size: 20px;
 }
 
 .footer-menu:hover {
-    background-color: #0000EE;
-    color: white;
-    border-color: black;
-    border-style: solid;
-    font-size: 20px;
+background-color: #0000EE;
+color: white;
+border-color: black;
+border-style: solid;
+font-size: 20px;
 }
 
 .footer-menu-facebook {
-    background-color: #0000EE;
-    color: white;
-    border-color: black;
-    border-style: solid;
-    font-size: 20px;
+background-color: #0000EE;
+color: white;
+border-color: black;
+border-style: solid;
+font-size: 20px;
 }
 
 .footer-menu-facebook:hover {
-    background-color: #4876FF;
-    color: white;
-    border-color: black;
-    border-style: solid;
-    font-size: 20px;
+background-color: #4876FF;
+color: white;
+border-color: black;
+border-style: solid;
+font-size: 20px;
 }
 
 .footer-menu-youtube {
-    background-color: #EE0000;
-    color: white;
-    border-color: black;
-    border-style: solid;
-    font-size: 20px;
+background-color: #EE0000;
+color: white;
+border-color: black;
+border-style: solid;
+font-size: 20px;
 }
 
 .footer-menu-youtube:hover {
-    background-color: red;
-    color: white;
-    border-color: black;
-    border-style: solid;
-    font-size: 20px;
+background-color: red;
+color: white;
+border-color: black;
+border-style: solid;
+font-size: 20px;
 }
 
 .footer-menu-instagram {
-    background-color: #FF1493;
-    color: white;
-    border-color: black;
-    border-style: solid;
-    font-size: 20px;
+background-color: #FF1493;
+color: white;
+border-color: black;
+border-style: solid;
+font-size: 20px;
 }
 
 .footer-menu-instagram:hover {
-    background-color: #FF69B4;
-    color: white;
-    border-color: black;
-    border-style: solid;
-    font-size: 20px;
+background-color: #FF69B4;
+color: white;
+border-color: black;
+border-style: solid;
+font-size: 20px;
 }
 
 .footer {
-    background-color: rgb(183, 213, 234);
-    margin-top: auto;
+background-color: rgb(183, 213, 234);
+margin-top: auto;
+}
+
+.footer-copy {
+text-align: center;
 }
 
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
-/*début caroussel*/
-#dvslider{
-background-repeat: round;
-  height:300px;
-  border: 1px solid #000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+@media (max-width: 768px) { 
+
+  .row{
+      margin-right: auto;
+      margin-left: auto;
+  }
+  
+  .header-row{
+      height: 60px;
+      text-align: center;
+      border-bottom: ;
+      border-color: black;    
+  }
+  
+  .header-brand{
+      background-color: #80cce6;
+      position: fixed;
+      display: block;
+      text-align: center;
+      width: 100%;
+      font-family: 'Lobster Two', cursive;
+      color: black;
+      font-size: 25px;
+      font-weight: 900;
+  }
+  
+  .header-brand.sticky-header{
+      position: fixed;
+      height: 50px;
+      top:0;
+      text-align: center;
+      left: 0;
+      width: 100%;
+      background-color: #090a46;
+      font-family: 'Lobster Two', cursive;
+      color: white;
+      font-size: 25px;
+      font-weight: 900;
+  }
+  
+  .sticky{
+      position: fixed;
+      text-align: center;
+      left: 0;
+      width: 100%;
+      background-color: red;
+      top: 50px;
+  }
+  
+/* Style the navigation menu */
+.menu-tab {     /* Barra Oculta */
+    overflow: hidden;
+    background-color: #8ad1e9;
+    position: fixed;
+    width: 100%;
 }
-
-.btSlider{
-  background-color: rgba(0,0,0,0.4);
-  height:30%;
-  color:#fff;
-  cursor: pointer;
-  outline: none;
-  margin: 10px;
-  border: none;
+  
+  .menu-tab.sticky {     /* Barra Oculta */
+    overflow: hidden;
+    background-color: #8ad1e9;
+    position: fixed;
+    width: 100%;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .menu-tab #myLinks {
+    display: none;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
 }
+  
+  /* Style navigation menu links */
+  .menu-tab a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    height: 45px;
+  }
+  
+  .menu-tab.sticky a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    height: 45px;
+  }
 
-/*#dvload{
-  width:100%;
-  height: 5px;
-  margin-top:25%;
-  border: 1px solid rgba(255,255,255,0.3);
+  /* Style the hamburger menu */
+  .menu-tab a.icon {
+    background: #80cce6;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    text-align: center;
+  }
+  
+  /*menu tab rolagem */
+  .menu-tab.sticky a.icon {
+      background: #090a46;;
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      text-align: center;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .menu-tab a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    font-family: 'Lobster Two', cursive;
+    color: black;
+  } 
+
 }
-
-#dvbarra{
-  width:0%;
-  height:100%;
-  background-color: #fff;
-}*/
-
-  /*fin carousel */
-
- 

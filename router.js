@@ -13,4 +13,9 @@ router.get('/contato', function(req, res) {
     res.render('contato')
 })
 
+router.get('/moradas/lofts', function(req, res) {
+    res.render('moradas/lofts')
+})
+
+
 module.exports = router
