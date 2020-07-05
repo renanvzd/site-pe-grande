@@ -3,10 +3,37 @@
     width: 100%;
 }
 
-.section-moradas{
-    padding: 300px 0;
-    height: 30%;
+.section-moradas {
+    padding: 100px 0;
+    height: 900px;
         
+}
+
+.carousel-moradas {
+  object-position: top;
+  margin: auto;
+  width: 800px;
+  height: 325px;
+  border: 2px solid green;
+  background-color: #5ab9d8;
+  padding: 10px;
+}
+
+@media (max-width: 768px) { 
+  .carousel-moradas{
+    object-position: top;
+    margin: auto;
+    width: 100%;
+    border: 2px solid green;
+    background-color: #5ab9d8;
+    padding: 10px;
+  }
+} 
+
+.moradas-titulo {
+  font-family: 'Lobster Two', cursive;
+  font-size: 50px;
+  text-align: center;
 }
 
 .color1{
@@ -91,6 +118,24 @@
   border: none;
 }
 
+#dvslider-moradas{
+background-repeat: round;
+  height:300px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btSlider-moradas{
+background-color: rgba(0,0,0,0.4);
+height:30%;
+color:#fff;
+cursor: pointer;
+outline: none;
+margin: 10px;
+border: none;
+}
 
 /************************ CARDS ************************/
 .text-car1 {
