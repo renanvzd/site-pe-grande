@@ -61,9 +61,10 @@
     color: black;
 }
 
-.card-link{
+/*.card-link{
   background-color: #F0FFFF;
 }
+*/
 
 /************************ CAROUSEL ************************/
 .carousel1 {
@@ -114,7 +115,6 @@
 }
 
 .borda-card {
-  background-color: #F0FFFF;
   border-color: black;
   border-width: 4px;
   border-radius: 20px;
@@ -157,7 +157,6 @@
 
 .row{
   margin-right: auto;
-  margin-left: auto;
 }
 
 .header-row{
@@ -377,14 +376,11 @@ box-sizing: border-box;
 
   .row{
       margin-right: auto;
-      margin-left: auto;
   }
   
   .header-row{
       height: 60px;
       text-align: center;
-      border-bottom: ;
-      border-color: black;    
   }
   
   .header-brand{
