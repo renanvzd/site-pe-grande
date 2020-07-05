@@ -1,25 +1,48 @@
-.section-home{
-    padding: 25px 0;
-    width: 100%;
-}
-
 .section-moradas {
-    padding: 100px 0;
+    padding: 80px 0;
     height: 900px;
-        
+    
 }
 
-.carousel-moradas {
-  object-position: top;
-  margin: auto;
-  width: 800px;
-  height: 325px;
-  border: 2px solid green;
-  background-color: #5ab9d8;
-  padding: 10px;
+.col-sm-4 {
+  max-width: 100%;
+  align-items: center;
 }
 
-@media (max-width: 768px) { 
+.moradas-titulo {
+  font-family: 'Lobster Two', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.carousel-moradas{
+  
+  width: 600px;
+}
+
+#dvslider-moradas{
+  background-repeat: round;
+  border: 1px solid black;
+    height:450px;
+    width: 100%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.btSlider-moradas{
+background-color: #36b1da;
+color:#fff;
+cursor: pointer;
+height: 70px;
+outline: none;
+margin: 2px;
+border: 1px solid black;
+}
+
+/*@media (max-width: 768px) { 
+
   .carousel-moradas{
     object-position: top;
     margin: auto;
@@ -28,12 +51,27 @@
     background-color: #5ab9d8;
     padding: 10px;
   }
-} 
 
-.moradas-titulo {
-  font-family: 'Lobster Two', cursive;
-  font-size: 50px;
-  text-align: center;
+  .btSlider-moradas{
+    background-color: rgba(0,0,0,0.4);
+    height:100%;
+    color:#fff;
+    cursor: pointer;
+    outline: none;
+    margin: 60px;
+    border: none;
+    }
+
+
+}
+*/
+/*********** Moradas *************/
+
+
+
+.section-home{
+  padding: 25px 0;
+  width: 100%;
 }
 
 .color1{
@@ -67,6 +105,7 @@
 
 .col-sm-6{
     position: static;
+
 }
 
 .col-md-8{
@@ -94,6 +133,7 @@
 */
 
 /************************ CAROUSEL ************************/
+
 .carousel1 {
     position: relative;
     background-color: black;
@@ -118,24 +158,7 @@
   border: none;
 }
 
-#dvslider-moradas{
-background-repeat: round;
-  height:300px;
-  border: 1px solid #000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.btSlider-moradas{
-background-color: rgba(0,0,0,0.4);
-height:30%;
-color:#fff;
-cursor: pointer;
-outline: none;
-margin: 10px;
-border: none;
-}
 
 /************************ CARDS ************************/
 .text-car1 {

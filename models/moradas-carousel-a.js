@@ -15,7 +15,7 @@ var vload;
                 imgs[i].src="../public/images/moradas-1/a"+s+".jpg";
                 i++;
                 s++;
-            } while (i<1);
+            } while (i<3);
         }
     
       function carregarImg(img){
@@ -26,7 +26,7 @@ var vload;
           preCarregamento();
           imgAtual=0;
           maxImg=imgs.length-1;
-          slider=document.getElementById("dvslider");
+          slider=document.getElementById("dvslider-moradas");
           vbarra=document.getElementById("dvbarra");
           carregarImg(imgAtual);
           tempoTroca=0;

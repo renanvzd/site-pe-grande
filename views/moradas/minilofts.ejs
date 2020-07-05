@@ -1,23 +1,27 @@
 <%- include('../includes/header') %>
 
 
-<div class="container">
+
     <div class="section-moradas">
         <p class="moradas-titulo">Minilofts Pé Grande</p>
-   <!--Carousel-->
-        <div class="carousel-moradas">
-            <div id="dvslider">
-            <button class="btSlider" onclick="troca(-1)"><</button>
-            <div id="dvload">
-                <div id="dvbarra"></div>
+              <div class="row">
+                        <div class="carousel-moradas mx-auto px-4">
+                            <div id="dvslider-moradas">
+                            <button class="btSlider-moradas" onclick="troca(-1)"><</button>
+                            <div id="dvload">
+                                <div id="dvbarra"></div>
+                            </div>
+                            <button class="btSlider-moradas" onclick="troca(1)">></button>
+                            </div>
+                            </div>
+                        </div>
+                   
             </div>
-            <button class="btSlider" onclick="troca(1)">></button>
-            </div>
-            </div>
-    </div>
-</div>
-
+          
+             
+   
 <%- include('../includes/footer') %>
+
 <script type="text/javascript" src="../models/moradas-carousel-a.js"></script>
 
 </body>
