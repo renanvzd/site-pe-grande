@@ -44,7 +44,8 @@ var vload;
           carregarImg(imgAtual);
       }
   
-      function anima(){
+     /* 
+        function anima(){
           tempoTroca++;
           if(tempoTroca >= 200){
               tempoTroca=0;
@@ -54,7 +55,8 @@ var vload;
           vbarra.style.width=vtempo+"%";
           window.requestAnimationFrame(anima);
       }
-  
+      */
+
       window.addEventListener("load",inicia);
       
   /*********************************** Carousel ******************/

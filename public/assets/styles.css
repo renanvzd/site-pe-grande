@@ -1,12 +1,10 @@
-.section-moradas {
-    padding: 80px 0;
-    height: 900px;
-    
-}
 
-.col-sm-4 {
-  max-width: 100%;
-  align-items: center;
+
+/************************************/
+
+.section-moradas {
+    padding: 40px 0;
+    height: 630px;
 }
 
 .moradas-titulo {
@@ -15,16 +13,28 @@
     text-align: center;
 }
 
+.moradas-carousel {
+  background-color: brown;
+}
+
 .carousel-moradas{
+  background-color: black;  
   
-  width: 600px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-left: 28%;
+  margin-right: 25%;
+}
+
+.moradas-images {
+  width: 80%;
 }
 
 #dvslider-moradas{
-  background-repeat: round;
+  background-repeat: no-repeat;
   border: 1px solid black;
     height:450px;
-    width: 100%;
+    width: 450px;
     border: 1px solid #000;
     display: flex;
     justify-content: space-between;
@@ -37,34 +47,58 @@ color:#fff;
 cursor: pointer;
 height: 70px;
 outline: none;
-margin: 2px;
+margin: -25px;
 border: 1px solid black;
 }
 
-/*@media (max-width: 768px) { 
+.container-info {
+  width: 600px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-moradas-info {
+  background-color: blue;
+  
+}
+
+@media (max-width: 768px) { 
 
   .carousel-moradas{
-    object-position: top;
-    margin: auto;
+    background-color: black;  
+    width: 450px;
+    height: 300px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: 20%;
+    margin-right: 15%;
+  }
+
+  #dvslider-moradas{
+    background-repeat: round;
+    border: 1px solid black;
+    height: 300px;
     width: 100%;
-    border: 2px solid green;
-    background-color: #5ab9d8;
-    padding: 10px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .btSlider-moradas{
-    background-color: rgba(0,0,0,0.4);
-    height:100%;
+    background-color: #36b1da;
     color:#fff;
     cursor: pointer;
+    height: 70px;
     outline: none;
-    margin: 60px;
-    border: none;
+    margin: -25px;
+    border: 1px solid black;
     }
 
-
 }
-*/
+
 /*********** Moradas *************/
 
 
@@ -76,7 +110,7 @@ border: 1px solid black;
 
 .color1{
     background-color: #CAE1FF;
-    padding: 0 0;
+    padding: 22px 0;
 }
 .color2{
     background-color: #CAE1FF;
@@ -222,7 +256,6 @@ border: 1px solid black;
   background-color: #CAE1FF; 
 }
 
-
 .row{
   margin-right: auto;
 }
@@ -248,7 +281,7 @@ border: 1px solid black;
 
 .header-brand.sticky-header{
   position: fixed;
-  height: 60px;
+  height: 43px;
   top:0;
   text-align: center;
   left: 0;
@@ -256,7 +289,7 @@ border: 1px solid black;
   background-color: #090a46;
   font-family: 'Lobster Two', cursive;
   color: white;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 900;
 }
 
@@ -266,7 +299,7 @@ border: 1px solid black;
   left: 0;
   width: 100%;
   background-color: #3498db;
-  top: 60px;
+  top: 43px;
 }
 
     /* Style the navigation menu */
@@ -286,29 +319,48 @@ border: 1px solid black;
     
     /* Hide the links inside the navigation menu (except for logo/home) */
     .menu-tab #myLinks {
+      background-color: #8ad1e9;
       display: none;
       width: 100%;
       text-align: center;
       font-weight: bold;
-    }
-    
+  }
+  
+    .menu-tab.sticky #myLinks {
+      background: #090a46e3;
+      display: none;
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+  }
+   
+  
+    /*menu tab rolagem */
+    .menu-tab.sticky a.icon {
+      background: #090a46e3;
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      text-align: center;
+  }
     /* Style navigation menu links */
     .menu-tab a {
       color: black;
-      padding: 14px 16px;
+      padding: 5px 16px;
       text-decoration: none;
-      font-size: 17px;
+      font-size: 14px;
       display: block;
-      height: 45px;
+      height: 30px;
     }
     
     .menu-tab.sticky a {
       color: white;
-      padding: 14px 16px;
+      padding: 5px 16px;
       text-decoration: none;
-      font-size: 17px;
+      font-size: 14px;
       display: block;
-      height: 45px;
+      height: 30px;
     }
 
     /* Style the hamburger menu */
@@ -320,17 +372,11 @@ border: 1px solid black;
       top: 0;
       text-align: center;
     }
-    
-    /*menu tab rolagem */
-    .menu-tab.sticky a.icon {
-        background: #090a46;
-        display: block;
-        position: absolute;
-        width: 100%;
-        top: 0;
-        text-align: center;
+        
+    .menu-tab.sticky a.icon:hover {
+      background-color:rgb(104, 185, 218);
+      color: black;
     }
-    
     
     /* Add a grey background color on mouse-over */
     .menu-tab a:hover {
@@ -447,7 +493,7 @@ box-sizing: border-box;
   }
   
   .header-row{
-      height: 60px;
+      height: 40px;
       text-align: center;
   }
   
@@ -459,13 +505,13 @@ box-sizing: border-box;
       width: 100%;
       font-family: 'Lobster Two', cursive;
       color: black;
-      font-size: 25px;
+      font-size: 20px;
       font-weight: 900;
   }
   
   .header-brand.sticky-header{
       position: fixed;
-      height: 50px;
+      height: 40px;
       top:0;
       text-align: center;
       left: 0;
@@ -473,7 +519,7 @@ box-sizing: border-box;
       background-color: #090a46;
       font-family: 'Lobster Two', cursive;
       color: white;
-      font-size: 25px;
+      font-size: 20px;
       font-weight: 900;
   }
   
@@ -483,7 +529,7 @@ box-sizing: border-box;
       left: 0;
       width: 100%;
       background-color: red;
-      top: 50px;
+      top: 40px;
   }
   
 /* Style the navigation menu */
@@ -494,6 +540,10 @@ box-sizing: border-box;
     width: 100%;
 }
   
+.header-col {
+  height: 10px;
+}
+
   .menu-tab.sticky {     /* Barra Oculta */
     overflow: hidden;
     background-color: #8ad1e9;
@@ -503,29 +553,38 @@ box-sizing: border-box;
   
   /* Hide the links inside the navigation menu (except for logo/home) */
   .menu-tab #myLinks {
+    background-color: #8ad1e9;
     display: none;
     width: 100%;
     text-align: center;
     font-weight: bold;
 }
-  
+
+  .menu-tab.sticky #myLinks {
+    background: #090a46;
+    display: none;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
   /* Style navigation menu links */
   .menu-tab a {
     color: black;
-    padding: 14px 16px;
+    padding: 4px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
     display: block;
-    height: 45px;
+    height: 30px;
   }
   
   .menu-tab.sticky a {
     color: white;
-    padding: 14px 16px;
+    padding: 4px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
     display: block;
-    height: 45px;
+    height: 30px;
   }
 
   /* Style the hamburger menu */
@@ -538,9 +597,16 @@ box-sizing: border-box;
     text-align: center;
   }
   
+  /* Add a grey background color on mouse-over */
+  .menu-tab a:hover {
+   background-color: white;
+   color: black;
+}
+
+
   /*menu tab rolagem */
   .menu-tab.sticky a.icon {
-      background: #090a46;;
+      background: #090a46;
       display: block;
       position: absolute;
       width: 100%;
