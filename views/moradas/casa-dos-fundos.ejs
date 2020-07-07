@@ -1,27 +1,96 @@
 <%- include('../includes/header') %>
 
 
-
+<div class="container">
 <div class="section-moradas">
-    <p class="moradas-titulo">Minilofts Pé Grande</p>
-        <div class="row">
-                <div class="container">
-                    <div class="moradas-carousel">
-                        <div id="dvslider-moradas">
-                            <button class="btSlider-moradas" onclick="troca(-1)"><</button>
-                            <div id="dvload">
-                                <div id="dvbarra"></div>
-                            </div>
-                            <button class="btSlider-moradas" onclick="troca(1)">></button>
-                        </div>
-                    </div>
-                </div>
+    <p class="moradas-titulo">Casa dos Fundos</p>
+    <p class="moradas-texto">Endereço: Av. Beira Mar 110. Bairro Tramandai Sul. Cidade Tramandaí</p>
+    <p class="moradas-texto-dois">Localizada a 3km do centro, essa hospedagem fica nos fundos de uma casa onde os proprietários residem na frente. Você dispõe de toda privacidade e poderá realizar seus eventos e festas com amigos ou família. Alugamos o ano inteiro. E no verão é possível apenas aluguel de final de semana "FINDIS".</p>
+        <p class="moradas-texto-dois">Solicite maiores explicações e regrinhas sobre realização de festas e eventos, filmes do local via whatsapp 51984395416. </br>
+        <a href="https://api.whatsapp.com/send?phone=555184395416&text=&source=&data=&app_absent=" class="whats"> <i class="fa fa-whatsapp" aria-hidden="true"></i> Chama no whats</a></p> 
+    </br>
+
+        <div id="dvslider-moradas" style="margin-left:auto; margin-right:auto">
+            <button class="btSlider-moradas" onclick="troca(-1)"><</button>
+            <button class="btSlider-moradas" onclick="troca(1)">></button>
         </div>
+    </div>
 </div>
-     
+
+
+<div class="section-dois-moradas">
+    <p class="moradas-info">Informações</p>
+    
+    <div class="container-moradas">
+        
+        <p class="moradas-texto">🏠 Casa dos fundos com piscina, mesa de sinuca e à beira-mar. </p>
+        <p class="moradas-texto-dois">👍 Até 10 pessoas: R$ 500,00 por dia.</p>
+        <p class="moradas-texto-dois">👍 Até 16 pessoas: R$ 600,00 por dia.</p>
+        
+        <p class="moradas-texto"> Finais de semana (Sexta à Segunda): </p>
+        <p class="moradas-texto-dois">👍 Até 10 pessoas: R$ 2.000,00</p>
+        <p class="moradas-texto-dois">👍 Até 16 pessoas: R$ 2.400,00</p>
+
+        <p class="moradas-texto"> Semana cheia (Segunda à Domingo): </p>
+        <p class="moradas-texto-dois">👍 Até 10 pessoas: R$ 2.500,00</p>
+        <p class="moradas-texto-dois">👍 Até 16 pessoas: R$ 2.600,00</p>
+
+       
+        
+    </div>
+</div>
+
+<div class="quadro-youtube">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+            <h1 class="display-6 mt-3"><i class="fa fa-video-camera text-primary" aria-hidden="true"></i> Casa dos Fundos</h1>
+       
+        </div>
+      
+    </div>
+  
+    <div class="row">
+      <div class="col-12 ml-3">
+
+          <div class="tab-content " id="nav-pills-content">
+              <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                    <div class="row">
+                        
+                      
+                      <div class="col-sm-6 mx-auto">
+                          <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eAf8atrbigU"></iframe>
+                          </div>
+                      </div>
+
+                      <!--<div class="col-sm-6">
+                      <p>Conheça todas as moradas!</p>
+                      </div>
+                      -->
+
+                    </div>
+              </div>
+
+            
+              <div class="row">
+                <div class="col-12 text-center ferias-youtube">
+              <p class="mt-3 mb-1" ></p>
+              </div>
+              </div>
+          </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>  
+
+
+
 <%- include('../includes/footer') %>
 
-<script type="text/javascript" src="../models/moradas-carousel-a.js"></script>
+<script type="text/javascript" src="../models/moradas-carousel-b.js"></script>
 
 </body>
 </html>

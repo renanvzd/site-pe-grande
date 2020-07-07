@@ -1,90 +1,113 @@
+/***
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
 
-
-/************************************/
+*********************************/
 
 .section-moradas {
     padding: 40px 0;
-    height: 630px;
+    height: 950px;
+    text-align: center;
 }
 
 .moradas-titulo {
   font-family: 'Lobster Two', cursive;
-    font-size: 40px;
-    text-align: center;
-}
-
-.moradas-carousel {
-  background-color: brown;
-}
-
-.carousel-moradas{
-  background-color: black;  
-  
-  padding-left: 24px;
-  padding-right: 24px;
-  margin-left: 28%;
-  margin-right: 25%;
-}
-
-.moradas-images {
-  width: 80%;
+  font-size: 40px;
+  align-items: center;
 }
 
 #dvslider-moradas{
-  background-repeat: no-repeat;
-  border: 1px solid black;
-    height:450px;
-    width: 450px;
+    background-repeat: round;
+    height:500px;
+    width: 600px;
     border: 1px solid #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    
   }
 
 .btSlider-moradas{
-background-color: #36b1da;
-color:#fff;
-cursor: pointer;
-height: 70px;
-outline: none;
-margin: -25px;
-border: 1px solid black;
+  background-color: rgba(0,0,0,0.4);
+  height:30%;
+  color:#fff;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+  border: none;
 }
 
-.container-info {
-  width: 600px;
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-right: auto;
-  margin-left: auto;
-}
 
-.section-moradas-info {
-  background-color: blue;
+.section-dois-moradas {
+  
+  margin-top: 50px;
+  height: 750px;
+  width: 100%;
+  background-color: #53cbf3;
+  text-align: center;
   
 }
 
+.moradas-info {
+padding-top: 20px;
+font-family: 'Lobster Two', cursive;
+font-size: 40px;
+align-items: center;
+}
+
+.container-moradas {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.moradas-texto {
+  margin-left: 30px;
+  margin-right: 0;
+  padding-top: 10px;
+  font-family: 'Calibri', cursive;
+  font-size: 30px;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.moradas-texto-dois {
+  margin-left: 50px;
+  margin-right: 0;
+  padding-top: 0;
+  font-family: 'Calibri', cursive;
+  font-size: 25px;
+  text-align: justify;
+}
+
+
+
+
 @media (max-width: 768px) { 
 
-  .carousel-moradas{
-    background-color: black;  
-    width: 450px;
-    height: 300px;
-    padding-left: 24px;
-    padding-right: 24px;
-    margin-left: 20%;
-    margin-right: 15%;
-  }
+  .section-moradas {
+    padding: 40px 0;
+    height: 1130px;
+    text-align: center;
+}
 
   #dvslider-moradas{
     background-repeat: round;
     border: 1px solid black;
-    height: 300px;
-    width: 100%;
+    height: 400px;
+    width: 350px;
     border: 1px solid #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
   }
 
   .btSlider-moradas{
@@ -93,8 +116,53 @@ border: 1px solid black;
     cursor: pointer;
     height: 70px;
     outline: none;
-    margin: -25px;
+    
     border: 1px solid black;
+    }
+
+    .section-dois-moradas {
+      margin-top: 50px;
+      height: 630px;
+      width: 100%;
+      background-color: #53cbf3;
+      text-align: center;
+      
+    }
+    
+    .moradas-info {
+    padding-top: 10px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    align-items: center;
+    }
+    
+    .container-moradas {
+      margin-left: auto;
+      margin-right: auto;
+      padding-right: 10px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    
+    .moradas-texto {
+      margin-left: 30px;
+      margin-right: 0;
+      padding-top: 10px;
+      font-family: 'Calibri', cursive;
+      font-size: 25px;
+      text-align: left;
+      font-weight: bolder;
+    }
+    
+    .moradas-texto-dois {
+      margin-left: 50px;
+      margin-right: 0;
+      padding-top: 0;
+      font-family: 'Calibri', cursive;
+      font-size: 20px;
+      text-align: left;
+      ;
     }
 
 }
@@ -168,10 +236,7 @@ border: 1px solid black;
 
 /************************ CAROUSEL ************************/
 
-.carousel1 {
-    position: relative;
-    background-color: black;
-}
+
 
 #dvslider{
   background-repeat: round;
@@ -235,6 +300,12 @@ border: 1px solid black;
 
 
 /************************ Youtube ************************/
+.whats {
+  font-size: 40px;
+  text-align: left;
+  color: rgb(16, 156, 39);
+  
+}
 
 .quadro-youtube {
     background-color: #5ab9d8;
@@ -253,7 +324,8 @@ border: 1px solid black;
 
  /************************* HEADER *********************/
  body {
-  background-color: #CAE1FF; 
+  background-color: #CAE1FF;
+  
 }
 
 .row{
@@ -396,6 +468,9 @@ border: 1px solid black;
     } 
 
 /************************* FOOTER *********************/
+.container-fluid{
+  position: relative;
+}
 
 .tab-content {
 position: static;
@@ -410,6 +485,7 @@ position: static;
 }
 
 .footer-menu {
+
 background-color: #3A5FCD;
 color: white;
 border-color: black;
@@ -476,10 +552,14 @@ font-size: 20px;
 .footer {
 background-color: rgb(183, 213, 234);
 margin-top: auto;
+position: relative;
 }
 
 .footer-copy {
+position: relative;
 text-align: center;
+background-color: #CAE1FF;
+
 }
 
 * {
