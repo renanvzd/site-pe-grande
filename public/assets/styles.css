@@ -9,7 +9,7 @@
 
 .section-moradas {
     padding: 40px 0;
-    height: 950px;
+    height: 980px;
     text-align: center;
 }
 
@@ -45,7 +45,7 @@
 .section-dois-moradas {
   
   margin-top: 50px;
-  height: 750px;
+  height: 600px;
   width: 100%;
   background-color: #53cbf3;
   text-align: center;
@@ -72,8 +72,8 @@ align-items: center;
   margin-left: 30px;
   margin-right: 0;
   padding-top: 10px;
-  font-family: 'Calibri', cursive;
-  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
   text-align: left;
   font-weight: bolder;
 }
@@ -82,8 +82,8 @@ align-items: center;
   margin-left: 50px;
   margin-right: 0;
   padding-top: 0;
-  font-family: 'Calibri', cursive;
-  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
   text-align: justify;
 }
 
@@ -94,7 +94,7 @@ align-items: center;
 
   .section-moradas {
     padding: 40px 0;
-    height: 1130px;
+    height: 1000px;
     text-align: center;
 }
 
@@ -122,7 +122,7 @@ align-items: center;
 
     .section-dois-moradas {
       margin-top: 50px;
-      height: 630px;
+      height: 550px;
       width: 100%;
       background-color: #53cbf3;
       text-align: center;
@@ -149,8 +149,8 @@ align-items: center;
       margin-left: 30px;
       margin-right: 0;
       padding-top: 10px;
-      font-family: 'Calibri', cursive;
-      font-size: 25px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 20px;
       text-align: left;
       font-weight: bolder;
     }
@@ -159,8 +159,8 @@ align-items: center;
       margin-left: 50px;
       margin-right: 0;
       padding-top: 0;
-      font-family: 'Calibri', cursive;
-      font-size: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 16px;
       text-align: left;
       ;
     }
