@@ -45,9 +45,9 @@
 .section-dois-moradas {
   
   margin-top: 50px;
-  height: 600px;
+  height: 1100px;
   width: 100%;
-  background-color: #53cbf3;
+  background-color: #8ad1e9;
   text-align: center;
   
 }
@@ -58,6 +58,13 @@ font-family: 'Lobster Two', cursive;
 font-size: 40px;
 align-items: center;
 }
+
+.moradas-valores {
+  padding-top: 5px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 40px;
+  align-items: center;
+  }
 
 .container-moradas {
   margin-left: auto;
@@ -71,7 +78,7 @@ align-items: center;
 .moradas-texto {
   margin-left: 30px;
   margin-right: 0;
-  padding-top: 10px;
+  padding-top: 5px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 25px;
   text-align: left;
@@ -87,7 +94,12 @@ align-items: center;
   text-align: justify;
 }
 
-
+.quadro-youtube-moradas {
+  padding-top: 10px;
+  background-color: #5ab9d8;
+  height: 420px;
+  
+}
 
 
 @media (max-width: 768px) { 
@@ -122,7 +134,7 @@ align-items: center;
 
     .section-dois-moradas {
       margin-top: 50px;
-      height: 550px;
+      height: 4100px;
       width: 100%;
       background-color: #53cbf3;
       text-align: center;
