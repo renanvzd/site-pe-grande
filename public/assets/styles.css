@@ -7,182 +7,9 @@
 
 *********************************/
 
-.section-moradas {
-    padding: 40px 0;
-    height: 980px;
-    text-align: center;
-}
 
-.moradas-titulo {
-  font-family: 'Lobster Two', cursive;
-  font-size: 40px;
-  align-items: center;
-}
-
-#dvslider-moradas{
-    background-repeat: round;
-    height:500px;
-    width: 600px;
-    border: 1px solid #000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    
-  }
-
-.btSlider-moradas{
-  background-color: rgba(0,0,0,0.4);
-  height:30%;
-  color:#fff;
-  cursor: pointer;
-  outline: none;
-  margin: 10px;
-  border: none;
-}
-
-
-.section-dois-moradas {
-  
-  margin-top: 50px;
-  height: 1100px;
-  width: 100%;
-  background-color: #8ad1e9;
-  text-align: center;
-  
-}
-
-.moradas-info {
-padding-top: 20px;
-font-family: 'Lobster Two', cursive;
-font-size: 40px;
-align-items: center;
-}
-
-.moradas-valores {
-  padding-top: 5px;
-  font-family: 'Lobster Two', cursive;
-  font-size: 40px;
-  align-items: center;
-  }
-
-.container-moradas {
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 100px;
-  width: 100%;
-  text-align: center;
-}
-
-
-.moradas-texto {
-  margin-left: 30px;
-  margin-right: 0;
-  padding-top: 5px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 25px;
-  text-align: left;
-  font-weight: bolder;
-}
-
-.moradas-texto-dois {
-  margin-left: 50px;
-  margin-right: 0;
-  padding-top: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 20px;
-  text-align: justify;
-}
-
-.quadro-youtube-moradas {
-  padding-top: 10px;
-  background-color: #5ab9d8;
-  height: 420px;
-  
-}
-
-
-@media (max-width: 768px) { 
-
-  .section-moradas {
-    padding: 40px 0;
-    height: 1000px;
-    text-align: center;
-}
-
-  #dvslider-moradas{
-    background-repeat: round;
-    border: 1px solid black;
-    height: 400px;
-    width: 350px;
-    border: 1px solid #000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-  }
-
-  .btSlider-moradas{
-    background-color: #36b1da;
-    color:#fff;
-    cursor: pointer;
-    height: 70px;
-    outline: none;
-    
-    border: 1px solid black;
-    }
-
-    .section-dois-moradas {
-      margin-top: 50px;
-      height: 4100px;
-      width: 100%;
-      background-color: #53cbf3;
-      text-align: center;
-      
-    }
-    
-    .moradas-info {
-    padding-top: 10px;
-    font-family: 'Lobster Two', cursive;
-    font-size: 30px;
-    align-items: center;
-    }
-    
-    .container-moradas {
-      margin-left: auto;
-      margin-right: auto;
-      padding-right: 10px;
-      width: 100%;
-      text-align: center;
-    }
-    
-    
-    .moradas-texto {
-      margin-left: 15px;
-      margin-right: 0;
-      padding-top: 10px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      font-size: 20px;
-      text-align: left;
-      font-weight: bolder;
-    }
-    
-    .moradas-texto-dois {
-      margin-left: 10px;
-      margin-right: 0;
-      padding-top: 0;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      font-size: 16px;
-      text-align: left;
-      ;
-    }
-
-}
 
 /*********** Moradas *************/
-
-
-
 .section-home{
   padding: 25px 0;
   width: 100%;
@@ -247,9 +74,6 @@ align-items: center;
 */
 
 /************************ CAROUSEL ************************/
-
-
-
 #dvslider{
   background-repeat: round;
     height:300px;
@@ -312,13 +136,6 @@ align-items: center;
 
 
 /************************ Youtube ************************/
-.whats {
-  font-size: 40px;
-  text-align: left;
-  color: rgb(16, 156, 39);
-  
-}
-
 .quadro-youtube {
     background-color: #5ab9d8;
 }
@@ -497,7 +314,6 @@ position: static;
 }
 
 .footer-menu {
-
 background-color: #3A5FCD;
 color: white;
 border-color: black;
@@ -719,3 +535,144 @@ box-sizing: border-box;
   } 
 
 }
+
+
+/**************************
+
+footer .ssba a {
+  display: block;
+  border: 0;
+  text-align: left;
+  background: 0 0;
+  font-size: 1em;
+  width: 100%;
+  line-height: 1.71429em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-bottom: .92857em;
+}
+
+footer .above-footer {
+  padding: 0;
+}
+
+footer .above-footer>.container-fluid {
+  padding-right: 30px;
+  padding-left: 30px;
+  max-width: 1465px;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+
+:before, :after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::selection {
+  color: #fff;
+  text-shadow: none;
+  background: #75abda;
+}
+
+div {
+  display: block;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.ssba a.ssba_youtube_share i {
+  color: #ea4467;
+}
+
+.ssba a.ssba_instagram_share i {
+  color: #a347b1;
+}
+
+.ssba a.ssba_facebook_share i {
+  color: #4763b1;
+}
+
+.backToTop {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: #333;
+  color: #fff;
+  padding: 5px 7px;
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+  font-size: 13px;
+  line-height: .9;
+  text-align: center;
+  z-index: 150;
+  -moz-transform: translate3d(0,200%,0);
+  -o-transform: translate3d(0,200%,0);
+  -ms-transform: translate3d(0,200%,0);
+  -webkit-transform: translate3d(0,200%,0);
+  transform: translate3d(0,200%,0);
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+
+footer .above-footer #footer-contact h2 {
+  margin-bottom: 1.05em;
+}
+footer .above-footer h2 {
+  border-bottom: 1px solid rgba(117,171,218,.3);
+  margin-top: 0;
+  padding-bottom: .65em;
+  margin-bottom: .95em;
+}
+
+footer h2 {
+  font-size: 1.42857em;
+}
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+  color: #fff;
+}
+
+*******************************/
