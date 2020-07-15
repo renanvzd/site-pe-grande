@@ -13,7 +13,7 @@
     padding-bottom: 3.5em;
     height: 100%;
     width: 100%;
-    background-color: #72d1f14d;
+    background-color: #72d1f144;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@
     padding-bottom: 3.5em;
     height: 100%;
     width: 100%;
-    background-color: #70e7ac93;
+    background-color: #72d1f17c;
     text-align: center;
 }
 
@@ -29,7 +29,7 @@
     padding-bottom: 3.5em;
     height: 100%;
     width: 100%;
-    background-color: #ffec8ba4;
+    background-color: #72d1f1b0;
     text-align: center;
 }
 
@@ -71,6 +71,7 @@
 .whats {
     font-size: 2em;
     text-align: left;
+    font-weight: bolder;
     color: rgb(16, 156, 39);
 }
 
@@ -164,7 +165,7 @@
 }
 
 .quadro-youtube-moradas {
-    background-color: black;
+    background-color: #090a46;
     height: 34.5em;
 }
 
@@ -234,7 +235,7 @@
         margin-top: 10px;
 
         width: 100%;
-        background-color: #8ad1e9;
+        background-color: #72d1f144;
         text-align: center;
     }
     
@@ -308,16 +309,16 @@
     .section-moradas-dois {
         margin-top: 35px;
         width: 100%;
-        background-color: #72d1f14d;
+        background-color: #72d1f144;
         text-align: center;
     }
 
     .section-moradas-tres {
-        background-color: #70e7ac80;
+        background-color: #72d1f17c;
     }
     
     .section-moradas-quatro {
-        background-color: #ffdf3e86;
+        background-color: #72d1f1b0;
     }
 
     .moradas-titulo {

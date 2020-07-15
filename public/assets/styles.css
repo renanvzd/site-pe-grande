@@ -72,10 +72,10 @@ html, body, h2
     color: black;
 }
 
-/*.card-link{
-  background-color: #F0FFFF;
+.card-link{
+  color: black;
 }
-*/
+
 
 /************************ CAROUSEL ************************/
 #dvslider{
