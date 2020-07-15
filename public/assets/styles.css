@@ -7,6 +7,16 @@
 
 *********************************/
 
+html, body, h2
+{  
+    margin: 0;  
+    padding: 0; 
+    background-color: #CAE1FF;
+}
+
+.row{
+  margin-right: auto;
+}
 
 
 /*********** Moradas *************/
@@ -32,13 +42,7 @@
     font-size: 50px;
 }
 
-@media (max-width: 768px) { 
-    .texto-section2{
-        font-family: 'Lobster Two', cursive;
-        font-size: 30px;
-        margin-top: 20px;
-    }
-}    
+
 
 .col-md-4, .col-12{
     position: static;
@@ -76,7 +80,7 @@
 /************************ CAROUSEL ************************/
 #dvslider{
   background-repeat: round;
-    height:300px;
+    height:400px;
     border: 1px solid #000;
     display: flex;
     justify-content: space-between;
@@ -84,7 +88,7 @@
   }
 
 .btSlider{
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.9);
   height:30%;
   color:#fff;
   cursor: pointer;
@@ -93,7 +97,31 @@
   border: none;
 }
 
+@media (max-width: 768px) { 
+  .texto-section2{
+      font-family: 'Lobster Two', cursive;
+      font-size: 30px;
+      margin-top: 20px;
+  }
 
+  #dvslider{
+    background-repeat: round;
+      height: 300px;
+      border: 1px solid #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .btSlider{
+      background-color: rgba(0,0,0,0.4);
+      height:30%;
+      color:#fff;
+      cursor: pointer;
+      outline: none;
+      margin: 10px;
+      border: none;
+    }
+}    
 
 /************************ CARDS ************************/
 .text-car1 {
@@ -138,6 +166,11 @@
 /************************ Youtube ************************/
 .quadro-youtube {
     background-color: #5ab9d8;
+    
+}
+
+.display-6 {
+  font-size: 2.2em;
 }
 
 .ferias-youtube {
@@ -152,14 +185,7 @@
 }
 
  /************************* HEADER *********************/
- body {
-  background-color: #CAE1FF;
-  
-}
-
-.row{
-  margin-right: auto;
-}
+ 
 
 .header-row{
   height: 60px;
