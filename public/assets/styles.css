@@ -147,14 +147,10 @@ html, body, h2
 
 .borda-card {
   border-color: black;
-  border-width: 4px;
-  border-radius: 20px;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0); 
+  border-width: 0.081em;
+  
 }
 
-.borda-card-capa {
-  border-radius: 15px 15px 0px 0px; 
-}
 
 .pe-grande-card {
   width: 20%; 

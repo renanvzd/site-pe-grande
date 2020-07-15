@@ -46,22 +46,24 @@
     font-family: 'Lobster Two', cursive;
     font-size: 2.5em;
     align-items: center;
+    font-weight: 200;
 }
 
 .moradas-secao-a {
     margin-left: 5px;
     margin-right: 0;
     padding-top: 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.31em;
     text-align: justify;
+    font-weight: 500;
 }
 
 .moradas-secao-b {
     margin-left: 5px;
     margin-right: 0;
     padding-top: 0.5em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.30em;
     text-align: justify;
     font-weight: bolder;
@@ -139,7 +141,7 @@
     margin-left: 1em;
     margin-right: 0;
     padding-top: 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.65em;
     text-align: left;
     font-weight: bolder;
@@ -149,7 +151,7 @@
     margin-left: 1.8em;
     margin-right: 1.9em;
     padding-top: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.31em;
     text-align: justify;
 }
@@ -378,14 +380,14 @@
     
     .moradas-info {
         font-family: 'Lobster Two', cursive;
-        font-size: 2em;
+        font-size: 1.8em;
         align-items: center;
         margin-left: 0.8em;
     }
 
     .moradas-valores {
         font-family: 'Lobster Two', cursive;
-        font-size: 2em;
+        font-size: 1.8em;
         align-items: center;
         margin-left: 0.8em;
     }
@@ -401,8 +403,8 @@
     .moradas-texto {
         margin-right: 0;
         padding-top: 1.2em;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 1.35em;
+        font-family: 'Playfair Display', serif;
+        font-size: 1.2em;
         text-align: justify;
         font-weight: bolder;
     }
@@ -410,8 +412,8 @@
     .moradas-texto-dois {
         margin-right: 0;
         padding-top: 0;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 1.1em;
+        font-family: 'Playfair Display', serif;
+        font-size: 1em;
         text-align: justify;
     }
 
