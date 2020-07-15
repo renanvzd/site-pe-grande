@@ -305,6 +305,21 @@
         margin-right: 1.2em;
     }
 
+    .section-moradas-dois {
+        margin-top: 35px;
+        width: 100%;
+        background-color: #72d1f14d;
+        text-align: center;
+    }
+
+    .section-moradas-tres {
+        background-color: #70e7ac80;
+    }
+    
+    .section-moradas-quatro {
+        background-color: #ffdf3e86;
+    }
+
     .moradas-titulo {
         font-family: 'Lobster Two', cursive;
         align-items: center;
@@ -359,15 +374,7 @@
         margin: 0px;
         border: none;
     }
-
-    .section-moradas-dois {
-        margin-top: 35px;
-
-        width: 100%;
-        background-color: #8ad1e9;
-        text-align: center;
-    }
-
+    
     .moradas-info {
         font-family: 'Lobster Two', cursive;
         font-size: 2em;
