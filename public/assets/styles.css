@@ -18,6 +18,27 @@ html, body, h2
   margin-right: auto;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+.ssba_youtube_share i {
+  color: #ea4467;
+  font-size: 1.3em;
+}
+
+.ssba_instagram_share i {
+  color: #a347b1;
+  font-size: 1.3em;
+}
+
+.ssba_facebook_share i {
+  color: #4763b1;
+  font-size: 1.3em;
+}
 
 /*********** Moradas *************/
 .section-home{
@@ -204,7 +225,7 @@ html, body, h2
 
 .header-brand.sticky-header{
   position: fixed;
-  height: 43px;
+  height: 60px;
   top:0;
   text-align: center;
   left: 0;
@@ -223,6 +244,62 @@ html, body, h2
   width: 100%;
   background-color: #3498db;
   top: 43px;
+}
+
+.socialMediaF {
+  padding-top: 5px;
+  padding-right: 2.6em;
+  position: fixed;
+  height: 60px;
+  display: block;
+  text-align: right;
+  width: 100%;
+  color: black;
+  font-size: 2.2em;
+}
+
+.socialMediaI {
+  padding-top: 5px;
+  padding-right: 2.6em;
+  position: fixed;
+  height: 60px;
+  display: block;
+  text-align: right;
+  width: 100%;
+  color: black;
+  font-size: 2.2em;
+}
+
+.socialMediaY{
+padding-top: 5px;
+  padding-right: 2.6em;
+  position: fixed;
+  height: 60px;
+  display: block;
+  text-align: right;
+  width: 100%;
+  color: black;
+  font-size: 2.2em;
+}
+
+.ssba_whats_share i {
+  color: white;
+  text-align: right;
+  font-size: 5em;
+  background-color: green;
+  border-radius: 35%;
+  padding-right: 0.15em;
+  padding-left: 0.20em;
+}
+
+.fa-whatsapp {
+  align-items: center;
+}
+
+.footer-whats.sticky-whats{
+  position: fixed;
+  bottom: 1.5em;
+  right: 1.6em;
 }
 
     /* Style the navigation menu */
@@ -462,6 +539,26 @@ box-sizing: border-box;
       top: 40px;
   }
   
+  .ssba_whats_share i {
+    color: white;
+    text-align: right;
+    font-size: 3em;
+    background-color: green;
+    width: 85%;
+    height: 1.25em;
+    border-radius: 40%;
+    padding-right: 0.55em;
+    padding-top: 0.15em;
+    padding-left: 0.35em;
+  }
+
+  .footer-whats.sticky-whats{
+    position: fixed;
+    bottom: 0em;
+    right: 0em;
+    
+  }
+
 /* Style the navigation menu */
 .menu-tab {     /* Barra Oculta */
     overflow: hidden;

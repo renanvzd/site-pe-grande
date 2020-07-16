@@ -29,3 +29,18 @@ function myFunction() {
       x.style.display = "block";
     }
   }
+
+
+
+  $(function(){
+            
+    $(window).scroll(function(){
+
+        if($(window).scrollTop() > 0) {
+            $(".footer-whats").addClass("sticky-whats");
+        } else {
+            $(".footer-whats").removeClass("sticky-whats");
+        }
+
+    });
+});
