@@ -635,6 +635,14 @@ box-sizing: border-box;
   height: 10px;
 }
 
+.menu-tab {     /* Barra Oculta */
+  overflow: hidden;
+  background-color: #8ad1e9;
+  position: fixed;
+  width: 100%;
+  top: 2.47em;
+}
+
   .menu-tab.sticky {     /* Barra Oculta */
     overflow: hidden;
     background-color: #8ad1e9;
