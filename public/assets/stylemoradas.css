@@ -330,8 +330,8 @@
     }
 
     .moradas-secao-a {
-        margin-left: 10px;
-        margin-right: 0;
+        margin-left: 0.15em;
+        margin-right: 0.3em;
         padding-top: 5px;
         font-family: 'Lora', serif;
         text-align: justify;
@@ -355,7 +355,7 @@
     .whats {
         text-align: left;
         color: rgb(16, 156, 39);
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
     
     #dvslider-moradas{
@@ -410,7 +410,8 @@
     }
 
     .moradas-texto-dois {
-        margin-right: 0;
+        margin-left: 1.2em;
+        margin-right: 0.09em;
         padding-top: 0;
         font-family: 'Lora', serif;
         font-size: 1em;
