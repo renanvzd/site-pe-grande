@@ -536,7 +536,7 @@ box-sizing: border-box;
   }
   
   .socialMediaI {
-    padding-top: 0.03em;
+    padding-top: 0.3em;
     
     position: fixed;
     height: 60px;
@@ -549,7 +549,7 @@ box-sizing: border-box;
   }
   
   .socialMediaY{
-    padding-top: 0.03em;
+    padding-top: 0.3em;
     
     position: fixed;
     height: 60px;
@@ -562,7 +562,7 @@ box-sizing: border-box;
   }
   
   .socialMediaF {
-    padding-top: 0.03em;
+    padding-top: 0.3em;
     
     position: fixed;
     height: 60px;
