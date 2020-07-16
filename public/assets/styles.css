@@ -36,7 +36,7 @@ a {
 }
 
 .ssba_facebook_share i {
-  color: #4763b1;
+  color: #113db8;
   font-size: 1.3em;
 }
 
@@ -246,50 +246,55 @@ a {
   top: 43px;
 }
 
-.socialMediaF {
-  padding-top: 5px;
-  padding-right: 2.6em;
-  position: fixed;
-  height: 60px;
-  display: block;
-  text-align: right;
-  width: 100%;
-  color: black;
-  font-size: 2.2em;
-}
-
 .socialMediaI {
-  padding-top: 5px;
-  padding-right: 2.6em;
+  padding-top: 0.03em;
+  
   position: fixed;
   height: 60px;
   display: block;
   text-align: right;
-  width: 100%;
+  right: 1em;
   color: black;
-  font-size: 2.2em;
+  font-size: 2em;
+  
 }
 
 .socialMediaY{
-padding-top: 5px;
-  padding-right: 2.6em;
+  padding-top: 0.03em;
+  
   position: fixed;
   height: 60px;
   display: block;
   text-align: right;
-  width: 100%;
+  right: 3em;
   color: black;
-  font-size: 2.2em;
+  font-size: 2em;
+  
+}
+
+.socialMediaF {
+  padding-top: 0.03em;
+  
+  position: fixed;
+  height: 60px;
+  display: block;
+  text-align: right;
+  right: 5em;
+  color: black;
+  font-size: 2em;
+  
 }
 
 .ssba_whats_share i {
   color: white;
   text-align: right;
   font-size: 5em;
-  background-color: green;
+  background-color: rgb(35, 255, 28);
   border-radius: 35%;
   padding-right: 0.15em;
   padding-left: 0.20em;
+  padding-top: 0.1em;
+  height: 1.2em;
 }
 
 .fa-whatsapp {
@@ -530,6 +535,45 @@ box-sizing: border-box;
       font-weight: 900;
   }
   
+  .socialMediaI {
+    padding-top: 0.03em;
+    
+    position: fixed;
+    height: 60px;
+    display: block;
+    text-align: right;
+    right: 0.5em;
+    color: black;
+    font-size: 1.2em;
+    
+  }
+  
+  .socialMediaY{
+    padding-top: 0.03em;
+    
+    position: fixed;
+    height: 60px;
+    display: block;
+    text-align: right;
+    right: 2.5em;
+    color: black;
+    font-size: 1.2em;
+    
+  }
+  
+  .socialMediaF {
+    padding-top: 0.03em;
+    
+    position: fixed;
+    height: 60px;
+    display: block;
+    text-align: right;
+    right: 4.5em;
+    color: black;
+    font-size: 1.2em;
+    
+  }
+
   .sticky{
       position: fixed;
       text-align: center;
@@ -543,7 +587,7 @@ box-sizing: border-box;
     color: white;
     text-align: right;
     font-size: 3em;
-    background-color: green;
+    background-color: rgb(35, 255, 28);
     width: 85%;
     height: 1.25em;
     border-radius: 40%;
