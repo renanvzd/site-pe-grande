@@ -313,6 +313,7 @@ a {
       background-color: #8ad1e9;
       position: fixed;
       width: 100%;
+      top: 3.5em;
     }
     
     .menu-tab.sticky {     /* Barra Oculta */
@@ -360,7 +361,7 @@ a {
     }
     
     .menu-tab.sticky {
-      top: 3.77em;
+      top: 3.5em;
     }
 
     .menu-tab.sticky a {
@@ -555,7 +556,7 @@ box-sizing: border-box;
   }
   
   .socialMediaI {
-    padding-top: 0.3em;
+    padding-top: 0.4em;
     
     position: fixed;
     height: 60px;
@@ -568,7 +569,7 @@ box-sizing: border-box;
   }
   
   .socialMediaY{
-    padding-top: 0.3em;
+    padding-top: 0.4em;
     
     position: fixed;
     height: 60px;
@@ -581,7 +582,7 @@ box-sizing: border-box;
   }
   
   .socialMediaF {
-    padding-top: 0.3em;
+    padding-top: 0.4em;
     
     position: fixed;
     height: 60px;
@@ -639,7 +640,7 @@ box-sizing: border-box;
     background-color: #8ad1e9;
     position: fixed;
     width: 100%;
-    top: 2.51em;
+    top: 2.47em;
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
