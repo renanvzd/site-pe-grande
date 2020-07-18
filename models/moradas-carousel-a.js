@@ -18,7 +18,8 @@ var vload;
             } while (i<14);
         }
     
-      function carregarImg(img){
+     
+        function carregarImg(img){
           slider.style.backgroundImage="url('"+imgs[img].src+"')";
       }
   

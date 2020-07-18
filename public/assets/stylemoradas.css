@@ -90,7 +90,7 @@
 }
 
 .moradas-info {
-    padding-top: 2.3em;
+    padding-top: 1.3em;
     margin-left: 0.8em;
     font-family: 'Lobster Two', cursive;
     font-size: 2.5em;
@@ -99,7 +99,7 @@
 
 
 .moradas-valores {
-    padding-top: 2.3em;
+    padding-top: 1.3em;
     margin-left: 0.8em;
     font-family: 'Lobster Two', cursive;
     font-size: 2.5em;
@@ -130,6 +130,7 @@
 
 .moradas-texto {
     margin-left: 1em;
+    padding-right: 2em;
     margin-right: 0;
     padding-top: 5px;
     font-family: 'Lora', serif;
@@ -159,11 +160,12 @@
 
 .quadro-youtube-moradas {
     background-color: #090a46;
-    height: 34.5em;
+    height: 33.5em;
 }
 
 .moradas-youtube {
-    padding-top: 2.3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     font-family: 'Lobster Two', cursive;
     font-size: 2.5em;
     text-align: center;
