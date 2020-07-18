@@ -104,118 +104,7 @@ a:hover{
   font-size: 2em;
 }
 
-
-
-/**************** Style the navigation menu ***************/
-
-    .menu-tab {     /* Barra Oculta */
-      overflow: hidden;
-      background-color: #8ad1e9;
-      position: fixed;
-      width: 100%;
-      top: 3.5em;
-    }
-    
-    .menu-tab.sticky {     /* Barra Oculta */
-      overflow: hidden;
-      background-color: #8ad1e9;
-      position: fixed;
-      width: 100%;
-    }
-    
-    /* Hide the links inside the navigation menu (except for logo/home) */
-    .menu-tab #myLinks {
-      background-color: #8ad1e9;
-      display: none;
-      width: 100%;
-      text-align: center;
-      font-weight: bold;
-  }
-  
-    .menu-tab.sticky #myLinks {
-      background: #274609e3;
-      display: none;
-      width: 100%;
-      text-align: center;
-      font-weight: bold;
-  }
-   
-  
-    /*menu tab rolagem */
-    .menu-tab.sticky a.icon {
-      background: #090a46e3;
-      display: block;
-      position: absolute;
-      width: 100%;
-      top: 0;
-      text-align: center;
-  }
-
-    /* Style navigation menu links */
-    .menu-tab a {
-      color: black;
-      padding: 5px 16px;
-      text-decoration: none;
-      font-size: 14px;
-      display: block;
-      height: 30px;
-    }
-    
-    .menu-tab.sticky {
-      top: 3.5em;
-    }
-
-    .menu-tab.sticky a {
-      color: white;
-      padding: 5px 16px;
-      text-decoration: none;
-      font-size: 14px;
-      display: block;
-      height: 30px;
-    }
-
-    /* Style the hamburger menu */
-    .menu-tab a.icon {
-      background: #80cce6;
-      display: block;
-      position: absolute;
-      width: 100%;
-      top: 0;
-      text-align: center;
-    }
-    
-    .menu-tab.stick a.icon {
-      background: red;
-      display: block;
-      position: absolute;
-      width: 100%;
-      top: 0;
-      text-align: center;
-    }
-
-    .menu-tab.sticky a.icon:hover {
-      background-color:rgb(104, 185, 218);
-      color: black;
-    }
-    
-    /* Add a grey background color on mouse-over */
-    .menu-tab a:hover {
-      background-color: white;
-      color: black;
-    }
-
-    .menu-tab.sticky a:hover {
-      background-color: rgb(104, 185, 218);
-      color: white;
-    }
-    
-    /* Style the active link (or home/logo) */
-    .active {
-      font-family: 'Lobster Two', cursive;
-      color: black;
-    } 
-
-    /* Media Social Icons*/
+/* Media Social Icons*/
 .ssba_youtube_share i {
   color: #ea4467;
   font-size: 1.3em;
@@ -230,6 +119,114 @@ a:hover{
   color: #113db8;
   font-size: 1.3em;
 }
+
+/**************** Style the navigation menu ***************/
+
+.menu-tab {     /* Barra Oculta */
+  overflow: hidden;
+  background-color: #8ad1e9;
+  position: fixed;
+  width: 100%;
+  top: 3.5em;
+}
+
+.menu-tab.sticky {     /* Barra Oculta */
+  overflow: hidden;
+  background-color: #8ad1e9;
+  position: fixed;
+  width: 100%;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.menu-tab #myLinks {
+  background-color: #8ad1e9;
+  display: none;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-tab.sticky #myLinks {
+  background: #274609e3;
+  display: none;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*menu tab rolagem */
+.menu-tab.sticky a.icon {
+  background: #090a46e3;
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  text-align: center;
+}
+
+/* Style navigation menu links */
+.menu-tab a {
+  color: black;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  height: 30px;
+}
+
+.menu-tab.sticky {
+  top: 3.5em;
+}
+
+.menu-tab.sticky a {
+  color: white;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  height: 30px;
+}
+
+/* Style the hamburger menu */
+.menu-tab a.icon {
+  background: #80cce6;
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  text-align: center;
+}
+
+.menu-tab.stick a.icon {
+  background: red;
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  text-align: center;
+}
+
+.menu-tab.sticky a.icon:hover {
+  background-color:rgb(104, 185, 218);
+  color: black;
+}
+
+/* Add a grey background color on mouse-over */
+.menu-tab a:hover {
+  background-color: white;
+  color: black;
+}
+
+.menu-tab.sticky a:hover {
+  background-color: rgb(104, 185, 218);
+  color: white;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  font-family: 'Lobster Two', cursive;
+  color: black;
+} 
 
 /****************************** Moradas ********************************/
 .color1{
@@ -249,46 +246,49 @@ a:hover{
 }
 .texto-section2{
     font-family: 'Lobster Two', cursive;
-    font-size: 50px;
+    font-size: 3em;
 }
 
-/****************************** Moradas ********************************/
+/****************************** Cards ********************************/
 
 .containerStatic {
   position: static;
 }
 
+.cardCapa {
+  flex-shrink: 0;
+  width: 100%; 
+  align-self: stretch;
+}
+
 .cardBottom {
-    position: static;
-    padding-bottom: 0em;
-    margin-bottom: 2.5em;
-    background-color: white;
-    border: solid black;
-    border-width: 0.01em;
-    
+  position: static;
+  padding-bottom: 0em;
+  margin-bottom: 2.5em;
+  background-color: white;
+  border: solid black;
+  border-width: 0.08em;
 }
 
 .cardBottom:hover{
-background-color: #b5f5f7;  
-color: white;
+  background-color: #b5f5f7;  
+  color: white;
 }
 
 .card-title{
-    font-family: 'Lobster Two', cursive;
-    font-weight: 900;
-    text-align: center;
-    width: 100%;
-    font-size: 2.18em;
+  font-family: 'Lobster Two', cursive;
+  font-weight: 900;
+  text-align: center;
+  width: 100%;
+  font-size: 2.18em;
 }
 
 .card-title:hover{
   color: rgb(43, 0, 199);
 }
 
-
-
 .cardSubtitleNormal {
-    color: black;
+  color: black;
 }
 
 .card-subtitle-special{
@@ -303,17 +303,16 @@ color: white;
   padding-top: 1em;
   margin-bottom: 0;
   color: #3498db;
-  
 }
 
 /************************ CAROUSEL ************************/
 #dvslider{
   background-repeat: round;
-    height:400px;
-    border: 1px solid #000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height:400px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   }
 
 .btSlider{
@@ -326,15 +325,36 @@ color: white;
   border: none;
 }
 
-
-
 /*# sourceMappingURL=style.css.map */
 
 
 /************************ Youtube ************************/
 .quadro-youtube {
-    background-color: #5ab9d8;
-    
+  margin-top: 1em;
+  background-color: #090a46;
+  height: 36em;
+}
+
+.section-youtube{
+  padding-top: 2em;
+  width: 100%;
+  text-align: center;
+}
+
+.moradas-youtube-home {
+  padding-top: 0.6em;
+  font-family: 'Lobster Two', cursive;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+}
+
+.msg-pos-youtube {
+  padding-top: 0.5em;
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-size: 2em;
 }
 
 .display-6 {
@@ -350,8 +370,9 @@ color: white;
 .text-center {
     font-family: 'Lobster Two', cursive;
     font-weight: 900;
+    align-items: center;
+    text-align: center;
 }
-
 
 
 /************************* FOOTER *********************/
@@ -371,81 +392,19 @@ position: static;
 position: static;
 }
 
-.footer-menu {
-background-color: #3A5FCD;
-color: white;
-border-color: black;
-border-style: solid;
-font-size: 20px;
+.sectionFooter {
+  padding-top: 0.3em;
+  padding-bottom: 0.2em;
+  height: 100%;
+  width: 100%;
+  background-color: #ace0ff;
+  text-align: center;
 }
 
-.footer-menu:hover {
-background-color: #0000EE;
-color: white;
-border-color: black;
-border-style: solid;
-font-size: 20px;
-}
-
-.footer-menu-facebook {
-background-color: #0000EE;
-color: white;
-border-color: black;
-border-style: solid;
-font-size: 20px;
-}
-
-.footer-menu-facebook:hover {
-background-color: #4876FF;
-color: white;
-border-color: black;
-border-style: solid;
-font-size: 20px;
-}
-
-.footer-menu-youtube {
-background-color: #EE0000;
-color: white;
-border-color: black;
-border-style: solid;
-font-size: 20px;
-}
-
-.footer-menu-youtube:hover {
-background-color: red;
-color: white;
-border-color: black;
-border-style: solid;
-font-size: 20px;
-}
-
-.footer-menu-instagram {
-background-color: #FF1493;
-color: white;
-border-color: black;
-border-style: solid;
-font-size: 20px;
-}
-
-.footer-menu-instagram:hover {
-background-color: #FF69B4;
-color: white;
-border-color: black;
-border-style: solid;
-font-size: 20px;
-}
-
-.footer {
-background-color: rgb(183, 213, 234);
-margin-top: auto;
-position: relative;
-}
-
-.footer-copy {
-position: relative;
-text-align: center;
-background-color: #CAE1FF;
-
+.visiteSm {
+  font-weight: bolder;
+  font-size: 1.2em;
+  margin-top: 1em;
 }
 
 * {
@@ -475,10 +434,9 @@ box-sizing: border-box;
 }
 
 @media (max-width: 768px) { 
-  .texto-section2{
-      font-family: 'Lobster Two', cursive;
-      font-size: 30px;
-      margin-top: 20px;
+
+  .row{
+    margin-right: auto;
   }
 
   .row.justify-content-sm-center {
@@ -486,71 +444,45 @@ box-sizing: border-box;
     margin-right: 0;
   }
 
-  #dvslider{
-    background-repeat: round;
-      height: 300px;
-      border: 1px solid #000;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .btSlider{
-      background-color: rgba(0,0,0,0.4);
-      height:30%;
-      color:#fff;
-      cursor: pointer;
-      outline: none;
-      margin: 10px;
-      border: none;
-    }
-}    
-
-@media (max-width: 768px) { 
-
-  .row{
-      margin-right: auto;
-  }
-  
   .header-row{
-      height: 40px;
-      text-align: center;
+    height: 40px;
+    text-align: center;
   }
-  
+
   .header-brand{
-      background-color: #80cce6;
-      position: fixed;
-      display: block;
-      text-align: justify;
-      width: 100%;
-      font-family: 'Lobster Two', cursive;
-      color: black;
-      font-size: 1.4em;
-      font-weight: 900;
-      padding-left: 0.5em;
-      letter-spacing: 0.03em;
-      padding-top: 0.2em;
+    background-color: #80cce6;
+    position: fixed;
+    display: block;
+    text-align: justify;
+    width: 100%;
+    font-family: 'Lobster Two', cursive;
+    color: black;
+    font-size: 1.4em;
+    font-weight: 900;
+    padding-left: 0.5em;
+    letter-spacing: 0.03em;
+    padding-top: 0.2em;
   }
-  
+
   .header-brand.sticky-header{
-      position: fixed;
-      height: 40px;
-      top:0;
-      text-align: justify;
-      left: 0;
-      width: 100%;
-      background-color: #090a46;
-      font-family: 'Lobster Two', cursive;
-      color: white;
-      font-size: 1.4em;
-      font-weight: 900;
-      padding-left: 0.5em;
-       letter-spacing: 0.03em;   
-       padding-top: 0.2em;
+    position: fixed;
+    height: 40px;
+    top:0;
+    text-align: justify;
+    left: 0;
+    width: 100%;
+    background-color: #090a46;
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 900;
+    padding-left: 0.5em;
+    letter-spacing: 0.03em;   
+    padding-top: 0.2em;
   }
-  
+
   .socialMediaI {
     padding-top: 0.4em;
-    
     position: fixed;
     height: 60px;
     display: block;
@@ -558,12 +490,10 @@ box-sizing: border-box;
     right: 0.5em;
     color: black;
     font-size: 1.2em;
-    
   }
-  
+
   .socialMediaY{
     padding-top: 0.4em;
-    
     position: fixed;
     height: 60px;
     display: block;
@@ -571,12 +501,10 @@ box-sizing: border-box;
     right: 2.5em;
     color: black;
     font-size: 1.2em;
-    
   }
-  
+
   .socialMediaF {
     padding-top: 0.4em;
-    
     position: fixed;
     height: 60px;
     display: block;
@@ -584,57 +512,60 @@ box-sizing: border-box;
     right: 4.5em;
     color: black;
     font-size: 1.2em;
-    
   }
 
   .sticky{
-      position: fixed;
-      text-align: center;
-      left: 0;
-      width: 100%;
-      background-color: red;
-      top: 40px;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    top: 40px;
   }
   
-  .ssba_whats_share i {
-    color: white;
-    text-align: right;
-    font-size: 3em;
-    background-color: rgb(35, 255, 28);
-    width: 85%;
-    height: 1.25em;
-    border-radius: 40%;
-    padding-right: 0.55em;
-    padding-top: 0.15em;
-    padding-left: 0.35em;
+  .texto-section2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    margin-top: 20px;
   }
 
-  .footer-whats.sticky-whats{
-    position: fixed;
-    bottom: 0em;
-    right: 0em;
-    
+  #dvslider{
+    background-repeat: round;
+    height: 19.75em;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-
-/* Style the navigation menu */
-.menu-tab {     /* Barra Oculta */
+  .btSlider{
+    background-color: rgba(0,0,0,0.4);
+    height:30%;
+    color:#fff;
+    cursor: pointer;
+    outline: none;
+    margin: 10px;
+    border: none;
+  }
+  
+  /* Style the navigation menu */
+  .menu-tab {     /* Barra Oculta */
     overflow: hidden;
     background-color: #8ad1e9;
     position: fixed;
     width: 100%;
-}
-  
-.header-col {
-  height: 10px;
-}
+  }
 
-.menu-tab {     /* Barra Oculta */
-  overflow: hidden;
-  background-color: #8ad1e9;
-  position: fixed;
-  width: 100%;
-  top: 2.47em;
-}
+  .header-col {
+    height: 10px;
+  }
+
+  .menu-tab {     /* Barra Oculta */
+    overflow: hidden;
+    background-color: #8ad1e9;
+    position: fixed;
+    width: 100%;
+    top: 2.47em;
+  }
 
   .menu-tab.sticky {     /* Barra Oculta */
     overflow: hidden;
@@ -643,7 +574,7 @@ box-sizing: border-box;
     width: 100%;
     top: 2.47em;
   }
-  
+
   /* Hide the links inside the navigation menu (except for logo/home) */
   .menu-tab #myLinks {
     background-color: #8ad1e9;
@@ -651,7 +582,7 @@ box-sizing: border-box;
     width: 100%;
     text-align: center;
     font-weight: bold;
-}
+  }
 
   .menu-tab.sticky #myLinks {
     background: #090a46;
@@ -659,7 +590,7 @@ box-sizing: border-box;
     width: 100%;
     text-align: center;
     font-weight: bold;
-}
+  }
 
   /* Style navigation menu links */
   .menu-tab a {
@@ -670,7 +601,7 @@ box-sizing: border-box;
     display: block;
     height: 30px;
   }
-  
+
   .menu-tab.sticky a {
     color: white;
     padding: 4px 16px;
@@ -689,175 +620,72 @@ box-sizing: border-box;
     top: 0;
     text-align: center;
   }
-  
-  /* Add a grey background color on mouse-over */
-  .menu-tab a:hover {
-   background-color: white;
-   color: black;
-}
-
 
   /*menu tab rolagem */
   .menu-tab.sticky a.icon {
-      background: #090a46;
-      display: block;
-      position: absolute;
-      width: 100%;
-      top: 0;
-      text-align: center;
+    background: #090a46;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    text-align: center;
   }
-  
+
   /* Add a grey background color on mouse-over */
   .menu-tab a:hover {
     background-color: white;
     color: black;
   }
-  
+
+  .texto-section2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 2em;
+}
+
   /* Style the active link (or home/logo) */
   .active {
     font-family: 'Lobster Two', cursive;
     color: black;
   } 
 
+  .quadro-youtube {
+    background-color: #090a46;
+    height: 33.5em;
+  }
+
+  .moradas-youtube-home {
+    padding-top: 0.2em;
+    padding-bottom: 0.5em;
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.8em;
+    text-align: center;
+    color: white;
+  }
+  
+  .msg-pos-youtube {
+    padding-top: 1.6em;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .ssba_whats_share i {
+    color: white;
+    text-align: right;
+    font-size: 3em;
+    background-color: rgb(35, 255, 28);
+    width: 85%;
+    height: 1.25em;
+    border-radius: 40%;
+    padding-right: 0.55em;
+    padding-top: 0.15em;
+    padding-left: 0.35em;
+  }
+
+  .footer-whats.sticky-whats{
+    position: fixed;
+    bottom: 0em;
+    right: 0em;
+  }
+
 }
-
-
-/**************************
-
-footer .ssba a {
-  display: block;
-  border: 0;
-  text-align: left;
-  background: 0 0;
-  font-size: 1em;
-  width: 100%;
-  line-height: 1.71429em;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  margin-bottom: .92857em;
-}
-
-footer .above-footer {
-  padding: 0;
-}
-
-footer .above-footer>.container-fluid {
-  padding-right: 30px;
-  padding-left: 30px;
-  max-width: 1465px;
-}
-
-.container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.row:before, .row:after {
-  content: " ";
-  display: table;
-}
-
-.row:after {
-  clear: both;
-}
-
-.row:before, .row:after {
-  content: " ";
-  display: table;
-}
-
-:before, :after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-::selection {
-  color: #fff;
-  text-shadow: none;
-  background: #75abda;
-}
-
-div {
-  display: block;
-}
-
-.container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  color: #000;
-  text-decoration: none;
-}
-
-.ssba a.ssba_youtube_share i {
-  color: #ea4467;
-}
-
-.ssba a.ssba_instagram_share i {
-  color: #a347b1;
-}
-
-.ssba a.ssba_facebook_share i {
-  color: #4763b1;
-}
-
-.backToTop {
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
-  background: #333;
-  color: #fff;
-  padding: 5px 7px;
-  position: fixed;
-  bottom: 10px;
-  right: 5px;
-  font-size: 13px;
-  line-height: .9;
-  text-align: center;
-  z-index: 150;
-  -moz-transform: translate3d(0,200%,0);
-  -o-transform: translate3d(0,200%,0);
-  -ms-transform: translate3d(0,200%,0);
-  -webkit-transform: translate3d(0,200%,0);
-  transform: translate3d(0,200%,0);
-  -webkit-transition: all .5s ease-in-out;
-  -o-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-}
-
-
-footer .above-footer #footer-contact h2 {
-  margin-bottom: 1.05em;
-}
-footer .above-footer h2 {
-  border-bottom: 1px solid rgba(117,171,218,.3);
-  margin-top: 0;
-  padding-bottom: .65em;
-  margin-bottom: .95em;
-}
-
-footer h2 {
-  font-size: 1.42857em;
-}
-footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
-  color: #fff;
-}
-
-*******************************/
