@@ -23,188 +23,13 @@ a {
   text-decoration: none;
 }
 
-
-
-.ssba_youtube_share i {
-  color: #ea4467;
-  font-size: 1.3em;
-}
-
-.ssba_instagram_share i {
-  color: #a347b1;
-  font-size: 1.3em;
-}
-
-.ssba_facebook_share i {
-  color: #113db8;
-  font-size: 1.3em;
-}
-
-/*********** Moradas *************/
-.section-home{
-  padding: 25px 0;
-  width: 100%;
-}
-
-.color1{
-    background-color: #CAE1FF;
-    padding: 22px 0;
-}
-.color2{
-    background-color: #CAE1FF;
-    padding: 0px 0;
-}
-.color3{
-    background-color: #a29bfe;
-}
-
-.texto-section2{
-    font-family: 'Lobster Two', cursive;
-    font-size: 50px;
-}
-
-
-
-.col-md-4, .col-12{
-    position: static;
-}
-
-.col-sm-6{
-    position: static;
-
-}
-
-.col-md-8{
-    max-width: 100%;
-}
-
-.card{
-    position: static;
-}
-
-.card-title{
-    font-family: 'Lobster Two', cursive;
-    font-weight: 900;
-    text-align: center;
-    font-size: 35px;
-}
-
-.card-subtitle{
-    color: black;
-}
-
-.card-link{
-  color: black;
-}
-
-
-/************************ CAROUSEL ************************/
-#dvslider{
-  background-repeat: round;
-    height:400px;
-    border: 1px solid #000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-.btSlider{
-  background-color: rgba(0,0,0,0.9);
-  height:30%;
-  color:#fff;
-  cursor: pointer;
-  outline: none;
-  margin: 10px;
-  border: none;
-}
-
-@media (max-width: 768px) { 
-  .texto-section2{
-      font-family: 'Lobster Two', cursive;
-      font-size: 30px;
-      margin-top: 20px;
-  }
-
-  #dvslider{
-    background-repeat: round;
-      height: 300px;
-      border: 1px solid #000;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .btSlider{
-      background-color: rgba(0,0,0,0.4);
-      height:30%;
-      color:#fff;
-      cursor: pointer;
-      outline: none;
-      margin: 10px;
-      border: none;
-    }
-}    
-
-/************************ CARDS ************************/
-.text-car1 {
-    color: white;
-    font-size: 55px;
-    font-family: Calibri;
-    font-weight: 600;
-}
-
-.text-car2 {
-    color: white;
-    font-size: 55px;
-    font-family: Calibri;
-    font-weight: 600;
-}
-
-.text-car {
-    font-size: 55px;
-    bottom: 100px;
-    font-family: Calibri;
-    font-weight: 600;
-}
-
-.borda-card {
-  border-color: black;
-  border-width: 0.081em;
-  
-}
-
-
-.pe-grande-card {
-  width: 20%; 
-}
-
-/*# sourceMappingURL=style.css.map */
-
-
-/************************ Youtube ************************/
-.quadro-youtube {
-    background-color: #5ab9d8;
-    
-}
-
-.display-6 {
-  font-size: 2.2em;
-}
-
-.ferias-youtube {
-    font-family: 'Shadows Into Light', cursive;
-    font-weight: 900;
-    font-size: 30px;
-}
-
-.text-center {
-    font-family: 'Lobster Two', cursive;
-    font-weight: 900;
+a:hover{
+  color: #000;
+  text-decoration: none;
 }
 
  /************************* HEADER *********************/
- 
-
-.header-row{
+ .header-row{
   height: 60px;
   text-align: center;
 }
@@ -246,22 +71,8 @@ a {
   top: 43px;
 }
 
-.socialMediaI {
-  padding-top: 0.2em;
-  
-  position: fixed;
-  height: 60px;
-  display: block;
-  text-align: right;
-  right: 1em;
-  color: black;
-  font-size: 2em;
-  
-}
-
 .socialMediaY{
   padding-top: 0.2em;
-  
   position: fixed;
   height: 60px;
   display: block;
@@ -269,12 +80,21 @@ a {
   right: 3em;
   color: black;
   font-size: 2em;
-  
+}
+
+.socialMediaI {
+  padding-top: 0.2em;
+  position: fixed;
+  height: 60px;
+  display: block;
+  text-align: right;
+  right: 1em;
+  color: black;
+  font-size: 2em;
 }
 
 .socialMediaF {
   padding-top: 0.2em;
-  
   position: fixed;
   height: 60px;
   display: block;
@@ -282,32 +102,12 @@ a {
   right: 5em;
   color: black;
   font-size: 2em;
-  
 }
 
-.ssba_whats_share i {
-  color: white;
-  text-align: right;
-  font-size: 5em;
-  background-color: rgb(35, 255, 28);
-  border-radius: 35%;
-  padding-right: 0.15em;
-  padding-left: 0.20em;
-  padding-top: 0.1em;
-  height: 1.2em;
-}
 
-.fa-whatsapp {
-  align-items: center;
-}
 
-.footer-whats.sticky-whats{
-  position: fixed;
-  bottom: 1.5em;
-  right: 1.6em;
-}
+/**************** Style the navigation menu ***************/
 
-    /* Style the navigation menu */
     .menu-tab {     /* Barra Oculta */
       overflow: hidden;
       background-color: #8ad1e9;
@@ -350,6 +150,7 @@ a {
       top: 0;
       text-align: center;
   }
+
     /* Style navigation menu links */
     .menu-tab a {
       color: black;
@@ -413,6 +214,145 @@ a {
       font-family: 'Lobster Two', cursive;
       color: black;
     } 
+
+    /* Media Social Icons*/
+.ssba_youtube_share i {
+  color: #ea4467;
+  font-size: 1.3em;
+}
+
+.ssba_instagram_share i {
+  color: #a347b1;
+  font-size: 1.3em;
+}
+
+.ssba_facebook_share i {
+  color: #113db8;
+  font-size: 1.3em;
+}
+
+/****************************** Moradas ********************************/
+.color1{
+    background-color: #CAE1FF;
+    padding: 1.7em 0;
+}
+
+.section-home{
+  padding: 25px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.color2{
+    background-color: #CAE1FF;
+    padding: 0px 0;
+}
+.texto-section2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+}
+
+/****************************** Moradas ********************************/
+
+.containerStatic {
+  position: static;
+}
+
+.cardBottom {
+    position: static;
+    padding-bottom: 0em;
+    margin-bottom: 2.5em;
+    background-color: white;
+    border: solid black;
+    border-width: 0.01em;
+    
+}
+
+.cardBottom:hover{
+background-color: #b5f5f7;  
+color: white;
+}
+
+.card-title{
+    font-family: 'Lobster Two', cursive;
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+    font-size: 2.18em;
+}
+
+.card-title:hover{
+  color: rgb(43, 0, 199);
+}
+
+
+
+.cardSubtitleNormal {
+    color: black;
+}
+
+.card-subtitle-special{
+  color: red;
+}
+
+.card-link{
+  color: black;
+}
+
+.pLink{
+  padding-top: 1em;
+  margin-bottom: 0;
+  color: #3498db;
+  
+}
+
+/************************ CAROUSEL ************************/
+#dvslider{
+  background-repeat: round;
+    height:400px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.btSlider{
+  background-color: rgba(0,0,0,0.9);
+  height:30%;
+  color:#fff;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+  border: none;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
+
+
+/************************ Youtube ************************/
+.quadro-youtube {
+    background-color: #5ab9d8;
+    
+}
+
+.display-6 {
+  font-size: 2.2em;
+}
+
+.ferias-youtube {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.text-center {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 900;
+}
+
+
 
 /************************* FOOTER *********************/
 .container-fluid{
@@ -511,6 +451,59 @@ background-color: #CAE1FF;
 * {
 box-sizing: border-box;
 }
+
+.ssba_whats_share i {
+  color: white;
+  text-align: right;
+  font-size: 5em;
+  background-color: rgb(35, 255, 28);
+  border-radius: 35%;
+  padding-right: 0.15em;
+  padding-left: 0.20em;
+  padding-top: 0.1em;
+  height: 1.2em;
+}
+
+.fa-whatsapp {
+  align-items: center;
+}
+
+.footer-whats.sticky-whats{
+  position: fixed;
+  bottom: 1.5em;
+  right: 1.6em;
+}
+
+@media (max-width: 768px) { 
+  .texto-section2{
+      font-family: 'Lobster Two', cursive;
+      font-size: 30px;
+      margin-top: 20px;
+  }
+
+  .row.justify-content-sm-center {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #dvslider{
+    background-repeat: round;
+      height: 300px;
+      border: 1px solid #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .btSlider{
+      background-color: rgba(0,0,0,0.4);
+      height:30%;
+      color:#fff;
+      cursor: pointer;
+      outline: none;
+      margin: 10px;
+      border: none;
+    }
+}    
 
 @media (max-width: 768px) { 
 
