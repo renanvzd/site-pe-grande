@@ -330,13 +330,12 @@ a:hover{
 
 /************************ Youtube ************************/
 .quadro-youtube {
-  margin-top: 1em;
   background-color: #090a46;
-  height: 36em;
+  height: 34em;
 }
 
 .section-youtube{
-  padding-top: 2em;
+  padding-top: 0.3em;
   width: 100%;
   text-align: center;
 }
@@ -650,35 +649,35 @@ box-sizing: border-box;
 
   .quadro-youtube {
     background-color: #090a46;
-    height: 33.5em;
+    height: 34.5em;
   }
 
   .moradas-youtube-home {
-    padding-top: 0.2em;
+    padding-top: 1.7em;
     padding-bottom: 0.5em;
     font-family: 'Lobster Two', cursive;
-    font-size: 1.8em;
+    font-size: 2em;
     text-align: center;
     color: white;
   }
   
   .msg-pos-youtube {
-    padding-top: 1.6em;
+    padding-top: 1.1em;
     color: white;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .ssba_whats_share i {
     color: white;
     text-align: right;
-    font-size: 3em;
+    font-size: 2.5em;
     background-color: rgb(35, 255, 28);
     width: 85%;
-    height: 1.25em;
+    height: 1.2em;
     border-radius: 40%;
     padding-right: 0.55em;
-    padding-top: 0.15em;
+    padding-top: 0.1em;
     padding-left: 0.35em;
   }
 
