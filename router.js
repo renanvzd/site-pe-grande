@@ -37,6 +37,9 @@ router.get('/moradas/cabaninhas', function(req, res) {
     res.render('moradas/cabaninhas')
 })
 
+router.get('/moradas/teste', function(req, res) {
+    res.render('moradas/teste')
+})
 
 
 
