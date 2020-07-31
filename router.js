@@ -9,9 +9,14 @@ router.get('/quem-somos', function(req, res) {
     res.render('quem-somos')
 })
 
-router.get('/contato', function(req, res) {
-    res.render('contato')
+router.get('/tarifario', function(req, res) {
+    res.render('tarifario')
 })
+
+router.get('/duvidas', function(req, res) {
+    res.render('duvidas')
+})
+
 
 router.get('/moradas/minilofts', function(req, res) {
     res.render('moradas/minilofts')
