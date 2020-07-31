@@ -152,17 +152,6 @@ nav{
   
 }
 
-.item.sticky label.sticky {
-  
-  display: block;
-  height: 50px;
-  padding: 5px 16px;
-  font-size: 14px;
-  cursor: pointer;
-  color: red;
-  
-}
-
 /* Style navigation menu links */
 .menu-tab a {
   color: black;
@@ -203,11 +192,6 @@ nav{
   border-bottom: solid 2px #aaa;
 }
 
-
-.item ul li a:hover{
-  background-color: #9cf
-}
-
 .item input:checked ~ ul{
    height: auto;
   max-height: 200px;
@@ -221,7 +205,6 @@ nav{
   position: fixed;
   width: 100%;
   top: 3.5em;
-  
 }
 
 .menu-tab.sticky {     /* Barra Oculta */
@@ -274,29 +257,17 @@ nav{
 
 /* Style the hamburger menu */
 .menu-tab a.icon {
-  background: #80cce6;
+  
   display: block;
   position: absolute;
   width: 100%;
   top: 0;
   text-align: center;
-}
-
-.menu-tab.stick a.icon {
-  background: red;
-  display: block;
-  position: absolute;
-  width: 100%;
-  top: 0;
-  text-align: center;
-}
-
-.menu-tab.sticky a.icon:hover {
-  background-color:rgb(104, 185, 218);
-  color: black;
 }
 
 /* Add a grey background color on mouse-over */
+
+
 .menu-tab a:hover {
   background-color: white;
   color: black;
@@ -306,6 +277,21 @@ nav{
   background-color: rgb(104, 185, 218);
   color: white;
 }
+
+.menu-tab label:hover {
+  color: black;
+  background-color: white;
+}
+
+.menu-tab.sticky label {
+  color: white;
+}
+
+.menu-tab.sticky label:hover {
+  background-color: rgb(104, 185, 218);
+  color: white;
+}
+
 
 /* Style the active link (or home/logo) */
 .active {
