@@ -524,10 +524,11 @@ box-sizing: border-box;
   font-size: 5em;
   background-color: rgb(35, 255, 28);
   border-radius: 35%;
-  padding-right: 0.15em;
-  padding-left: 0.20em;
-  padding-top: 0.1em;
-  height: 1.2em;
+  height: 1.5em;
+  border-radius: 50%;
+  padding-right: 0.3em;
+  padding-top: 0.25em;
+  padding-left: 0.3em;
 }
 
 .fa-whatsapp {
@@ -782,10 +783,10 @@ box-sizing: border-box;
     font-size: 2.5em;
     background-color: rgb(35, 255, 28);
     width: 85%;
-    height: 1.2em;
-    border-radius: 40%;
+    height: 1.5em;
+    border-radius: 50%;
     padding-right: 0.55em;
-    padding-top: 0.1em;
+    padding-top: 0.25em;
     padding-left: 0.35em;
   }
 
