@@ -764,6 +764,13 @@ box-sizing: border-box;
     color: white;
   }
   
+  .embed-responsive-item {
+    width: 23em;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+  }
+
   .msg-pos-youtube {
     padding-top: 0.8em;
     color: white;
