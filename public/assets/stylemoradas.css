@@ -160,7 +160,7 @@
 
 .quadro-youtube-moradas {
     background-color: #090a46;
-    height: 33.5em;
+    height: 31.5em;
 }
 
 .moradas-youtube {
@@ -251,7 +251,7 @@
     .container-moradas {
         margin-left: auto;
         margin-right: auto;
-        padding-right: 100px;
+        padding-right: 50px;
         width: 100%;
         text-align: center;
     }
@@ -278,7 +278,7 @@
     
     .moradas-texto-dois-obs {
         margin-left: 1.8em;
-        margin-right: 1.9em;
+        margin-right: 0.4em;
         padding-top: 0;
         font-family: 'Lora', serif;
         font-size: 0.9em;
@@ -389,7 +389,7 @@
     .container-moradas {
         margin-left: auto;
         margin-right: auto;
-        padding-right: 25px;
+        padding-right: 15px;
         width: 100%;
         text-align: center;
     }
@@ -414,7 +414,7 @@
 
     .moradas-texto-dois-obs {
         margin-left: 1.8em;
-        margin-right: 1.9em;
+        margin-right: 1em;
         padding-top: 0;
         font-family: 'Lora', serif;
         font-size: 0.9em;

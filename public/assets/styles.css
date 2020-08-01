@@ -418,9 +418,16 @@ nav{
   text-align: center;
 }
 
+.align-youtube {
+  display: flex;
+  justify-content: center;
+}
+
 .embed-responsive-item {
-  width: 100%;
-  height: 300px;
+  width: 30em;
+  height: 20em;
+  display: flex;
+  justify-content: center;
 }
 
 .moradas-youtube-home {
