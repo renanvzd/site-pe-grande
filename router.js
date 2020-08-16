@@ -46,10 +46,9 @@ router.get('/moradas/teste', function(req, res) {
     res.render('moradas/teste')
 })
 
-
-
-
-
+router.get('/moradas/outras-moradas', function(req,res) {
+    res.render('moradas/outras-moradas')
+})
 
 
 module.exports = router

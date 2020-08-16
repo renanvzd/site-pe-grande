@@ -166,6 +166,7 @@ nav{
 
 .item label:hover{
   background-color: #8ad1e9;
+  font-size: 14px;
 }
 
 .item ul{
@@ -193,9 +194,9 @@ nav{
   border-bottom: solid 2px #aaa;
 }
 
-.item input:checked ~ ul{
-   height: auto;
-  max-height: 200px;
+.item input:checked ~ ul{       /* Abrir menu  >> Selecione a morada << */
+  height: auto;
+  max-height: 210px;
   transform: all;
   padding: inherit;
 }
@@ -217,6 +218,7 @@ nav{
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .menu-tab #myLinks {
+  height: 215px;    /*altura do bloco do menu */
   background-color: #8ad1e9;
   display: none;
   width: 100%;
