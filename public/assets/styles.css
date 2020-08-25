@@ -411,7 +411,7 @@ nav{
 /************************ Youtube ************************/
 .quadro-youtube {
   background-color: #090a46;
-  height: 37em;
+  height: 38em;
 }
 
 .section-youtube{
@@ -441,11 +441,12 @@ nav{
 }
 
 .msg-pos-youtube {
-  padding-top: 0.5em;
+  font-family: 'Lobster Two', cursive;
+  padding-top: 0.8em;
   color: white;
   text-align: center;
   align-items: center;
-  font-size: 2em;
+  font-size: 1.85em;
 }
 
 .display-6 {
@@ -754,7 +755,7 @@ box-sizing: border-box;
 
   .quadro-youtube {
     background-color: #090a46;
-    height: 38em;
+    height: 40em;
   }
 
   .moradas-youtube-home {
@@ -777,7 +778,7 @@ box-sizing: border-box;
     padding-top: 0.8em;
     color: white;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.85em;
   }
 
   .ssba_whats_share i {
