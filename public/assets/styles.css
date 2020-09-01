@@ -140,6 +140,7 @@ nav{
 .menu-bar {
   align-items: center;
   text-align: center;
+  width: 100%;
 }
 
 .item label {
@@ -801,7 +802,7 @@ box-sizing: border-box;
   }
 
 
-  @media (max-width: 359px) { 
+  @media (max-width: 399px) { 
     .header-brand{
       background-color: #80cce6;
       position: fixed;
@@ -832,6 +833,13 @@ box-sizing: border-box;
       padding-left: 0.5em;
       letter-spacing: 0.03em;   
       padding-top: 0.5em;
+    }
+
+    .menu-bar {
+      align-items: center;
+      text-align: center;
+      padding-left: 10px;
+      width: 100%;
     }
 
     .texto-section2{
