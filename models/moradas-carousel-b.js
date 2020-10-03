@@ -15,7 +15,7 @@ var vload;
                 imgs[i].src="../public/images/moradas-2/b"+s+".jpg";
                 i++;
                 s++;
-            } while (i<14);
+            } while (i<17);
         }
     
       function carregarImg(img){
