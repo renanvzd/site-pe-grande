@@ -23,8 +23,8 @@
 #
 
 ## <div align="center">Autor</div>
-<div align="center">Primeiro projeto colocado em produção
-Se tiver alguma sugestão de melhoria, por favor, entre em contato e ja aproveita e me adiciona.<br>
+<div align="center">Primeiro projeto colocado em produção. <br/>
+Se tiver alguma sugestão de melhoria, por favor, entre em contato e ja aproveita e me adiciona.<br><br/>
 <a href="https://www.linkedin.com/in/renan-veronez-drechsler-54a4801a3/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> 
 <a href="https://app.rocketseat.com.br/me/renan-veronez-drechsler-05266" target="_blank"><img src="https://img.shields.io/badge/-Rocketseat-000?style=for-the-badge&logo=rocketseat&logoColor=black"></a>
 </div>
