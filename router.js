@@ -30,10 +30,6 @@ router.get('/moradas/sobrados-amarelo', function(req, res) {
     res.render('moradas/sobrados-amarelo')
 })
 
-router.get('/moradas/sobrados-rosa', function(req, res) {
-    res.render('moradas/sobrados-rosa')
-})
-
 router.get('/moradas/kitroots', function(req, res) {
     res.render('moradas/kitroots')
 })
